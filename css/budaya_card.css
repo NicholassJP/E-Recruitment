@@ -28,18 +28,18 @@
 
 .card-profile{
     display: flex;
-  align-items: center;
-  padding: 20px;
-  bottom: 0;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
 }
 
 .img-profile {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     object-position: center;
     object-fit: cover;
-    margin-right: 10px;
+    margin-right: 16px;
    }
 
    .nb{
@@ -48,6 +48,10 @@
 
    .nb .small{
     font-size: 14px;
+   }
+
+    .small-1{
+    font-size: 15px;
    }
 
 .card-body{
