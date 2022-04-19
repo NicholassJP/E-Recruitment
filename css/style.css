@@ -42,6 +42,10 @@ margin-bottom: 200px;
     font-weight: 600px;
 }
 
+.w-100 {
+	height: 100vh;
+}
+
 .btn-secondary{
     width: 200px;
     border-radius: 20px;
