@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root{
+    --primary: #FFCA00;
+    --primary_hover: #bd9700;
+  
+    --secondary: #02ECF1;
+    --secondary_hover: #009b9e;
+  }
+
+/* Navbar */
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-color: unset;
+}
+
+/* Carousel */
+.carousel-caption{
+text-align: left;
+margin-bottom: 200px;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.btn-primary{
+    width: 120px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    color: var(--primary);
+    font-weight: 600px;
+}
+
+.btn-secondary{
+    width: 200px;
+    border-radius: 20px;
+    background-color: var(--primary);
+    border-color:var(--primary);
+    color: black;
+    font-weight: 600px;
+}
+
+.display-4{
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    width: 120px;
+    border-radius: 20px;
+    background-color: var(--primary_hover);
+    border-color: var(--primary_hover);
+    color: white;
+    font-weight: 600px;
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
+    .navbar-brand,
+    .nav-link {
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white !important;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid var(--primary);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
