@@ -99,6 +99,16 @@ margin-bottom: 200px;
     font-weight: 600px;
 }
 
+header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    background-color:black;
+}
+
 /* Desktop */
 @media (min-width: 1400px) {
     .navbar-brand,
