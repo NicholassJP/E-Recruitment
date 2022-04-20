@@ -8,6 +8,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/4619c8d9c5.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -20,6 +26,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/wave.css" />
     <link rel="stylesheet" href="css/budaya_card.css" />
+    <link rel="stylesheet" href="css/dropdown.css" />
 
     <title>E-Recruitment</title>
   </head>
@@ -46,13 +53,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#"
+            <a class="nav-item nav-link active" href="home.html"
               >HOME <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="#">LOWONGAN</a>
-            <a class="nav-item nav-link" href="#">CEK HASIL</a>
-            <a class="nav-item nav-link" href="#">LOGIN</a>
-            <a class="nav-item btn btn-primary tombol" href="#">SIGN UP</a>
+            <a class="nav-item nav-link" href="lowongan.html">LOWONGAN</a>
+            <a class="nav-item nav-link" href="#company">CEK HASIL</a>
+            <a class="nav-item nav-link" href="index.html">LOGIN</a>
+            <a class="nav-item btn btn-primary tombol" href="index.html"
+              >SIGN UP</a
+            >
           </div>
         </div>
       </div>
@@ -100,34 +109,86 @@
       <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid jumbotron-background-1">
         <div class="container">
-          <h1 class="display-4">
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+          <h1 class="text-header bold ml-4">
+            <span>LET'S</span>
           </h1>
-          <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          </p>
-          <a href="" class="btn btn-secondary btn-lg mt-40">LOREM IPSUM</a>
+          <h1 class="text-header-2 bold ml-4 yellow">#JumpAndGrowWithUs</h1>
+          <p class="lead ml-4">Find Your Dream Job in Alfamart!</p>
+        </div>
+        <!-- Inner Form -->
+        <div class="inner-form">
+          <!-- Dropdown 1 -->
+          <div class="dropdown">
+            <button
+              class="btn btn-dropdown"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-location-dot mr-3"></i>
+              All Location
+              <i class="fa-solid fa-angle-down ml-9"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <!-- Dropdown 2 -->
+          <div class="dropdown">
+            <button
+              class="btn btn-dropdown"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-briefcase mr-3"></i>
+              Divisi
+              <i class="fa-solid fa-angle-down ml-10"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <!-- Search -->
+          <div class="inner-search">
+            <input
+              class="form-control search-box"
+              type="text"
+              placeholder="Type in your favorite role"
+            />
+          </div>
+          <button class="btn btn-search">Search</button>
+          <button class="btn btn-job">View All Jobs</button>
         </div>
       </div>
     </div>
     <!-- Akhir Jumbotron -->
 
     <!-- Company Profile -->
-    <div class="container">
-      <h2 class="text-center mt-5 mb-5 bold" id="">Company Profile</h2>
+    <div class="container scale-in-center">
+      <h2 class="text-center mt-5 mb-5 bold" id="">About Alfamart</h2>
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultricies id eros a dapibus. Integer nec mi eu massa facilisis
-            accumsan et vitae velit. Aliquam eu aliquet odio. Nam id nibh
-            ligula. Interdum et malesuada fames ac ante ipsum primis in
-            faucibus. Pellentesque finibus, dui quis efficitur imperdiet, felis
-            odio ultricies risus, a feugiat tortor dolor nec erat. Suspendisse
-            potenti. Curabitur efficitur rhoncus dapibus. In hendrerit, mi
-            sagittis viverra hendrerit, purus diam laoreet erat, et aliquet enim
-            enim ut metus. Sed fermentum elit id ullamcorper facilisis. Aliquam
-            erat volutpat. Vivamus molestie neque ac aliquam eleifend
+          <p class="about">
+            Sejarah Alfamart dimulai pada tahun 1989 oleh Djoko Susanto dan
+            mengawali usaha di bilang perdagangan dan distribusi. Pada tahun
+            1989, perseroan merambah ke sektor minimarket. Alfamart menyediakan
+            barang-barang kebutuhan pokok dengan harga terjangkau. Saat ini kami
+            memiliki 32 Kantor cabang yang tersebar diseluruh Indonesia dengan
+            jumlah karyawan lebih dari 130.000 karyawan. Alfamart juga telah
+            berekspansi ke Filipina.
+          </p>
+          <p class="about-2">
+            Temukan perkembangan kami lainnya dan mari bertumbuh dan berkembang
+            bersama kami <a href="">Lihat lainnya</a>
           </p>
         </div>
         <div class="col">
@@ -141,10 +202,12 @@
     </div>
     <!-- Akhir Profile Perusahaan -->
 
-    <!-- Budaya (2i & 3k) -->
+    <!-- Core Values (2i & 3k) -->
     <div class="body-2 mt-5">
       <div class="container">
-        <h2 class="text-center mt-5 mb-5 bold" id="">Budaya (2i & 3k)</h2>
+        <h2 class="text-center mt-5 mb-5 bold secondary">
+          Core Values (2i & 3k)
+        </h2>
         <!-- Integritas -->
         <div class="row align-items-center">
           <div class="col-lg-6 ml-150">

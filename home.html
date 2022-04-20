@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/4619c8d9c5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/wave.css" />
+    <link rel="stylesheet" href="css/budaya_card.css" />
+    <link rel="stylesheet" href="css/dropdown.css" />
+
+    <title>E-Recruitment</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparan fixed-top nav-fixed"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="images/logo.png" width="110" height="" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="home.html"
+              >HOME <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="lowongan.html">LOWONGAN</a>
+            <a class="nav-item nav-link" href="#company">CEK HASIL</a>
+            <a class="nav-item nav-link" href="index.html">LOGIN</a>
+            <a class="nav-item btn btn-primary tombol" href="index.html"
+              >SIGN UP</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Carousel Background -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/1.jpg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/2.png" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/3.png" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/4.png" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/5.png" alt="Third slide" />
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <div class="carousel-caption d-none d-md-block">
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid jumbotron-background-1">
+        <div class="container">
+          <h1 class="text-header bold ml-4">
+            <span>LET'S</span>
+          </h1>
+          <h1 class="text-header-2 bold ml-4 yellow">#JumpAndGrowWithUs</h1>
+          <p class="lead ml-4">Find Your Dream Job in Alfamart!</p>
+        </div>
+        <!-- Inner Form -->
+        <div class="inner-form">
+          <!-- Dropdown 1 -->
+          <div class="dropdown">
+            <button
+              class="btn btn-dropdown"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-location-dot mr-3"></i>
+              All Location
+              <i class="fa-solid fa-angle-down ml-9"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <!-- Dropdown 2 -->
+          <div class="dropdown">
+            <button
+              class="btn btn-dropdown"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-briefcase mr-3"></i>
+              Divisi
+              <i class="fa-solid fa-angle-down ml-10"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <!-- Search -->
+          <div class="inner-search">
+            <input
+              class="form-control search-box"
+              type="text"
+              placeholder="Type in your favorite role"
+            />
+          </div>
+          <button class="btn btn-search">Search</button>
+          <button class="btn btn-job">View All Jobs</button>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Company Profile -->
+    <div class="container scale-in-center">
+      <h2 class="text-center mt-5 mb-5 bold" id="">About Alfamart</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <p class="about">
+            Sejarah Alfamart dimulai pada tahun 1989 oleh Djoko Susanto dan
+            mengawali usaha di bilang perdagangan dan distribusi. Pada tahun
+            1989, perseroan merambah ke sektor minimarket. Alfamart menyediakan
+            barang-barang kebutuhan pokok dengan harga terjangkau. Saat ini kami
+            memiliki 32 Kantor cabang yang tersebar diseluruh Indonesia dengan
+            jumlah karyawan lebih dari 130.000 karyawan. Alfamart juga telah
+            berekspansi ke Filipina.
+          </p>
+          <p class="about-2">
+            Temukan perkembangan kami lainnya dan mari bertumbuh dan berkembang
+            bersama kami <a href="">Lihat lainnya</a>
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="/images/profile.png"
+            class="img-fluid float-right mb-5"
+            alt="profile_image"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Profile Perusahaan -->
+
+    <!-- Core Values (2i & 3k) -->
+    <div class="body-2 mt-5">
+      <div class="container">
+        <h2 class="text-center mt-5 mb-5 bold secondary">
+          Core Values (2i & 3k)
+        </h2>
+        <!-- Integritas -->
+        <div class="row align-items-center">
+          <div class="col-lg-6 ml-150">
+            <h2>Integritas Yang Tinggi</h2>
+            <p>
+              Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
+              erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
+              nunc et massa.
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="/images/ills1.png"
+              class="img-fluid"
+              alt="profile_image"
+            />
+          </div>
+        </div>
+        <!-- Akhir Integritas -->
+
+        <!-- Inovasi -->
+        <div class="row align-items-center mt-4">
+          <div class="col ml-150">
+            <img
+              src="/images/ills1.png"
+              class="img-fluid"
+              alt="profile_image"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2>Inovasi untuk kemajuan yang lebih baik</h2>
+            <p>
+              Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
+              erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
+              nunc et massa.
+            </p>
+          </div>
+        </div>
+        <!-- Akhir Inovasi -->
+
+        <!-- Kualitas -->
+        <div class="row align-items-center mt-4">
+          <div class="col-lg-6 ml-150">
+            <h2>Kualitas & Produktivitas yang tertinggi</h2>
+            <p>
+              Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
+              erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
+              nunc et massa. Nam dapibus nisl vitae elit fringilla rutrum.
+              Aenean sollicitudin, erat a elementum rutrum,
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="/images/ills1.png"
+              class="img-fluid"
+              alt="profile_image"
+            />
+          </div>
+        </div>
+        <!-- Akhir Kualitas -->
+
+        <!-- Kerjasama-->
+        <div class="row align-items-center mt-4">
+          <div class="col ml-150">
+            <img
+              src="/images/ills1.png"
+              class="img-fluid"
+              alt="profile_image"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2>Kerja sama tim</h2>
+            <p>
+              Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
+              erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
+              nunc et massa.
+            </p>
+          </div>
+        </div>
+        <!-- Akhir Kerjasama -->
+
+        <!-- Kepuasan -->
+        <div class="row align-items-center mt-4 mb-5">
+          <div class="col-lg-6 ml-150">
+            <h2>Kepuasan pelanggan melalui standar pelayanan yang terbaik</h2>
+            <p>
+              Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
+              erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
+              nunc et massa.
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="/images/ills1.png"
+              class="img-fluid"
+              alt="profile_image"
+            />
+          </div>
+        </div>
+        <!-- Akhir Kepuasan -->
+      </div>
+    </div>
+    <!-- Akhir Budaya -->
+
+    <div class="body-3">
+      <h1 class="text-center white">Kata Mereka</h1>
+    </div>
+
+    <!-- Script -->
+    <script>
+      const navbar = document.querySelector(".nav-fixed");
+      window.onscroll = () => {
+        if (window.scrollY > 0) {
+          navbar.classList.add("nav-active");
+        } else {
+          navbar.classList.remove("nav-active");
+        }
+      };
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

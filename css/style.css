@@ -1,29 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 :root{
     --primary: #FFCA00;
     --primary_hover: #bd9700;
-  
-    --secondary: #02ECF1;
-    --secondary_hover: #009b9e;
+    --secondary: #005DA6;
+    --secondary-red:#E02020;
+    --neutral:#9D9D9D;
+    --netural-2: #848489;
+    --about: #272727;
+    --about-2: #4D4D4D;
   }
+
+  .about{
+      color: var(--about);
+  }
+  .about-2{
+      color: var(--about-2);
+  }
+  .secondary{
+      color: var(--secondary);
+  }
+  .white{
+      color: white;
+  }
+  
 
 /* Navbar */
 .nav-link {
-    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
 
 /* Jumbotron */
 .jumbotron{
     background-color: unset;
+    padding: 0rem;
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
 }
 
 /* Carousel */
 .carousel-caption{
 text-align: left;
-bottom: 40px;
-margin-bottom: 200px;
+margin-bottom: 250px;
+padding-bottom: 0px;
 }
 
 .carousel-item {
@@ -39,7 +69,26 @@ margin-bottom: 200px;
     border-radius: 20px;
     background-color: white;
     border-color: white;
-    color: var(--primary);
+    color: var(--secondary);
+    font-weight: 600px;
+    align-self: center;
+}
+
+.btn-primary:hover{
+    width: 120px;
+    border-radius: 20px;
+    background-color: var(--primary_hover);
+    border-color: var(--primary_hover);
+    color: white;
+    font-weight: 600px;
+}
+
+.btn-secondary{
+    width: 200px;
+    border-radius: 20px;
+    background-color: var(--primary);
+    border-color:var(--primary);
+    color: black;
     font-weight: 600px;
 }
 
@@ -77,26 +126,25 @@ margin-bottom: 200px;
     width: 16px;
 }
 
-.btn-secondary{
-    width: 200px;
-    border-radius: 20px;
-    background-color: var(--primary);
-    border-color:var(--primary);
-    color: black;
-    font-weight: 600px;
+
+.text-header{
+    font-size: 60px;
+}
+
+.text-header-2{
+    font-size: 45px;
 }
 
 .display-4{
     font-weight: bold;
 }
 
-.btn-primary:hover{
-    width: 120px;
-    border-radius: 20px;
-    background-color: var(--primary_hover);
-    border-color: var(--primary_hover);
-    color: white;
-    font-weight: 600px;
+.body-3{
+    padding: 6px;
+    position: relative;
+    background-color: var(--primary);
+    height: max-content;
+    width: 100%;
 }
 
 header.nav-fixed {
@@ -109,6 +157,61 @@ header.nav-fixed {
     background-color:black;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url('/images/filter.png') !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.yellow{
+    color: #FFD63C;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+
 /* Desktop */
 @media (min-width: 1400px) {
     .navbar-brand,
@@ -118,7 +221,6 @@ header.nav-fixed {
     }
     .nav-link {
         text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
         margin-right: 30px;
     }
 
