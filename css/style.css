@@ -56,7 +56,7 @@ margin-bottom: 250px;
 padding-bottom: 0px;
 }
 
-.carousel-item {
+.carousel-item{
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -90,6 +90,57 @@ padding-bottom: 0px;
     border-color:var(--primary);
     color: black;
     font-weight: 600px;
+}
+
+.btn-play{
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    color: white;
+}
+
+.katamereka{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.inner-kata{
+    width: 80%;
+    padding: 5rem;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 40px 5px 40px 5px;
+}
+
+.inner-img-kata{
+    width: 278px;
+    height: 282px;
+    border-radius: 32px 0px 32px 0px;
+    transform: translateX(-10rem);
+}
+
+.caption-profile{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0.5;
+    color: var(--secondary);
+}
+
+.caption-profile-2{
+    font-size: 16px;
+    line-height: 0.8;
+    color: var(--secondary);
+}
+
+.caption-kata{
+    transform: translateX(-3rem);
 }
 
 .mt-40{
@@ -140,7 +191,7 @@ padding-bottom: 0px;
 }
 
 .body-3{
-    padding: 6px;
+    padding: 60px;
     position: relative;
     background-color: var(--primary);
     height: max-content;
