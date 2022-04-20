@@ -10,21 +10,6 @@
     margin-left: 150px;
 }
 
-.card{
-    width: 301px;
-    height: 261px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 40px 5px;
-    border: 0px;
-}
-
-.card-profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-}
-
 .img-profile {
     width: 55px;
     height: 55px;
@@ -45,10 +30,6 @@
     .small-1{
     font-size: 15px;
    }
-
-.card-body{
-    color: white;
-}
 
 .op-50{
     opacity: 0.5;
