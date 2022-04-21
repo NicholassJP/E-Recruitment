@@ -239,13 +239,20 @@ padding-bottom: 0px;
 }
 
 .body-4{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     position: relative;
     padding: 60px 0px 60px 0px;
     background-color: white;
-    height: max-content;
+    height: 500px;
     width: 100%;
     text-align: center;
+    overflow-y: hidden;
 }
+
+.body-4::-webkit-scrollbar {
+    display: none;
+  }
 
 .text-berkembang{
     font-size: 35px;
@@ -261,6 +268,7 @@ padding-bottom: 0px;
 }
 
 .container-card{
+    position: absolute;
     padding: 48px 0px 48px 410px;
     display: flex;
 }
