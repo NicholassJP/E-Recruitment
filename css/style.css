@@ -294,6 +294,80 @@ padding-bottom: 0px;
     text-align: left;
 }
 
+/* Lokasi Kami */
+.body-5{
+    padding: 80px;
+    width: 100%;
+    height: max-content;
+    background-image: linear-gradient(0deg, #DBF0FF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.text-lokasi{
+    font-size: 35px;
+    text-align: center;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.text-kerja{
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #6d7278;
+    font-weight: 400;
+}
+
+.img-lokasi{
+    width: 236px;
+}
+
+.btn-dropdown-lokasi{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.btn-search-lokasi{
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #005DA6;
+    color: white;
+}
+
+.card-lokasi{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 1180px;
+    height: 113px;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.text-cabang{
+    font-size: 24px;
+    color: var(--secondary);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.text-alamat{
+    font-size: 16px;
+    color: var(--secondary);
+}
+
+/* Akhir Lokasi Kami */
+
+/* FAQ */
+.body-6{
+    padding: 40px;
+    background-color: white;
+    width: 100%;
+    height: max-content;
+}
+
 .text-positions{
     margin-top: 30px;
     font-size: 16px;
