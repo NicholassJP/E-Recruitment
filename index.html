@@ -8,6 +8,16 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- FontAwesome -->
     <script
       src="https://kit.fontawesome.com/4619c8d9c5.js"
@@ -103,7 +113,7 @@
     <div class="carousel-caption d-none d-md-block">
       <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid jumbotron-background-1">
-        <div class="container">
+        <div class="container tagline">
           <h1 class="text-header bold ml-4">
             <span>LET'S</span>
           </h1>
@@ -168,11 +178,11 @@
     <!-- Akhir Jumbotron -->
 
     <!-- Company Profile -->
-    <div class="container scale-in-center">
-      <h2 class="text-center mt-5 mb-5 bold" id="">About Alfamart</h2>
+    <div class="container">
+      <h2 class="text-center mt-5 mb-5 bold tagline" id="">About Alfamart</h2>
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <p class="about">
+          <p class="about tagline-about">
             Sejarah Alfamart dimulai pada tahun 1989 oleh Djoko Susanto dan
             mengawali usaha di bilang perdagangan dan distribusi. Pada tahun
             1989, perseroan merambah ke sektor minimarket. Alfamart menyediakan
@@ -181,12 +191,12 @@
             jumlah karyawan lebih dari 130.000 karyawan. Alfamart juga telah
             berekspansi ke Filipina.
           </p>
-          <p class="about-2">
+          <p class="about-2 tagline-about-2">
             Temukan perkembangan kami lainnya dan mari bertumbuh dan berkembang
             bersama kami <a href="">Lihat lainnya</a>
           </p>
         </div>
-        <div class="col">
+        <div class="col tagline-about-img">
           <button class="btn btn-play"><i class="fa-solid fa-play"></i></button>
           <img
             src="/images/profile.png"
@@ -201,7 +211,7 @@
     <!-- Core Values (2i & 3k) -->
     <div class="body-2 mt-5">
       <div class="container">
-        <h2 class="text-center mt-5 mb-5 bold secondary">
+        <h2 class="text-center mt-5 mb-5 bold secondary tagline">
           Core Values (2i & 3k)
         </h2>
         <!-- Integritas -->
@@ -209,13 +219,13 @@
           <div class="col-lg-4">
             <img
               src="/images/ills/App-HC_INTEGRITAS YANG TINGGI.png"
-              class="img-fluid img-budaya"
+              class="img-fluid img-budaya tagline-core-left"
               alt="profile_image"
             />
           </div>
           <div class="col-lg-5">
-            <h2>Integritas Yang Tinggi</h2>
-            <p>
+            <h2 class="tagline-core-right">Integritas Yang Tinggi</h2>
+            <p class="tagline-core-left-delay">
               Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
               erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
               nunc et massa.
@@ -228,8 +238,10 @@
         <div class="row align-items-center mt-4">
           <div class="col-lg-3"></div>
           <div class="col-lg-5">
-            <h2>Inovasi untuk kemajuan yang lebih baik</h2>
-            <p>
+            <h2 class="tagline-core-left">
+              Inovasi untuk kemajuan yang lebih baik
+            </h2>
+            <p class="tagline-core-left-delay">
               Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
               erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
               nunc et massa.
@@ -238,7 +250,7 @@
           <div class="col-lg-4">
             <img
               src="/images/ills/App-HC_INOVASI UNTUK KEMAJUAN-YANG LEBIH BAIK.png"
-              class="img-fluid img-budaya"
+              class="img-fluid img-budaya tagline-core-right"
               alt="profile_image"
             />
           </div>
@@ -250,13 +262,15 @@
           <div class="col-lg-4">
             <img
               src="/images/ills/App-HC_KUALITAS _ PRODUKTIVITAS-YANG TERTINGGI.png"
-              class="img-fluid img-budaya"
+              class="img-fluid img-budaya tagline-core-left"
               alt="profile_image"
             />
           </div>
           <div class="col-lg-5">
-            <h2>Kualitas & Produktivitas yang tertinggi</h2>
-            <p>
+            <h2 class="tagline-core-right">
+              Kualitas & Produktivitas yang tertinggi
+            </h2>
+            <p class="tagline-core-right-delay">
               Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
               erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
               nunc et massa. Nam dapibus nisl vitae elit fringilla rutrum.
@@ -270,8 +284,8 @@
         <div class="row align-items-center mt-4">
           <div class="col-lg-3"></div>
           <div class="col-lg-5">
-            <h2>Kerja sama tim</h2>
-            <p>
+            <h2 class="tagline-core-left">Kerja sama tim</h2>
+            <p class="tagline-core-left-delay">
               Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
               erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
               nunc et massa.
@@ -280,7 +294,7 @@
           <div class="col-lg-4">
             <img
               src="/images/ills/App-HC_KERJASAMA TIM.png"
-              class="img-fluid img-budaya"
+              class="img-fluid img-budaya tagline-core-right"
               alt="profile_image"
             />
           </div>
@@ -292,13 +306,15 @@
           <div class="col-lg-4">
             <img
               src="/images/ills/App-HC_KEPUASAN PELANGGAN MELALUI -STANDAR PELAYANAN YANG TERBAIK.png"
-              class="img-fluid img-budaya"
+              class="img-fluid img-budaya tagline-core-left"
               alt="profile_image"
             />
           </div>
           <div class="col-lg-5">
-            <h2>Kepuasan pelanggan melalui standar pelayanan yang terbaik</h2>
-            <p>
+            <h2 class="tagline-core-right">
+              Kepuasan pelanggan melalui standar pelayanan yang terbaik
+            </h2>
+            <p class="tagline-core-right-delay">
               Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin,
               erat a elementum rutrum, neque sem pretium metus, quis mollis nisl
               nunc et massa.
@@ -311,6 +327,7 @@
     <!-- Akhir Budaya -->
 
     <div class="body-3">
+      <h1 class="tagline text-center katamereka mb-5">Kata Mereka</h1>
       <div
         id="carousel-example-two"
         class="carousel slide"
@@ -327,7 +344,39 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h1 class="text-center katamereka">Kata Mereka</h1>
+            <div class="container">
+              <div class="inner-kata">
+                <img
+                  src="images/profile-1.png"
+                  class="inner-img-kata tagline-core-left"
+                  alt=""
+                />
+                <div class="caption-kata tagline-core-right">
+                  <h1>"</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec malesuada molestie tempor. Quisque semper at arcu
+                    vitae porttitor. Sed tincidunt massa nec lectus aliquet
+                    consequat quis vel sapien. Mauris rhoncus ligula leo, sit
+                    amet interdum dolor rutrum ac. Vestibulum porta nibh a
+                    pulvinar consectetur. Praesent congue vestibulum felis, non
+                    aliquam velit consectetur vel. Nunc non odio in augue
+                    scelerisque rhoncus et eget orci. Nullam sollicitudin, nunc
+                    non rhoncus eleifend, est erat blandit tellus, et posuere
+                    risus lacus id quam. Nulla facilisi. Proin pellentesque ante
+                    eu pellentesque egestas.
+                  </p>
+                  <h5 class="caption-profile tagline-core-right-delay">
+                    Nadia Ali
+                  </h5>
+                  <h5 class="caption-profile-2 tagline-core-right-delay">
+                    UI/UX Designer
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="container">
               <div class="inner-kata">
                 <img src="images/profile-1.png" class="inner-img-kata" alt="" />
@@ -353,33 +402,6 @@
             </div>
           </div>
           <div class="carousel-item">
-            <h1 class="text-center katamereka">Kata Mereka</h1>
-            <div class="container">
-              <div class="inner-kata">
-                <img src="images/profile-1.png" class="inner-img-kata" alt="" />
-                <div class="caption-kata">
-                  <h1>"</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec malesuada molestie tempor. Quisque semper at arcu
-                    vitae porttitor. Sed tincidunt massa nec lectus aliquet
-                    consequat quis vel sapien. Mauris rhoncus ligula leo, sit
-                    amet interdum dolor rutrum ac. Vestibulum porta nibh a
-                    pulvinar consectetur. Praesent congue vestibulum felis, non
-                    aliquam velit consectetur vel. Nunc non odio in augue
-                    scelerisque rhoncus et eget orci. Nullam sollicitudin, nunc
-                    non rhoncus eleifend, est erat blandit tellus, et posuere
-                    risus lacus id quam. Nulla facilisi. Proin pellentesque ante
-                    eu pellentesque egestas.
-                  </p>
-                  <h5 class="caption-profile">Nadia Ali</h5>
-                  <h5 class="caption-profile-2">UI/UX Designer</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <h1 class="text-center katamereka">Kata Mereka</h1>
             <div class="container">
               <div class="inner-kata">
                 <img src="images/profile-1.png" class="inner-img-kata" alt="" />
@@ -427,71 +449,90 @@
     </div>
 
     <div class="body-4">
-      <h1 class="text-berkembang">
+      <h1 class="text-berkembang tagline-core-right mt-5">
         Sudah siap untuk bertumbuh dan berkembang bersama Kami?
       </h1>
-      <h3 class="text-potensi">
+      <h3 class="text-potensi tagline-core-left">
         Kenali potensi mu dan bergabunglah dengan tim kami
       </h3>
-      <div class="container-card">
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-body">
-            <div class="icon-card">
-              <i class="fa-solid fa-briefcase middle"></i>
+      <div class="container-tim mt-5">
+        <div class="slider">
+          <!-- Card 1 -->
+          <div>
+            <div class="card ml-20 tagline-down-delay">
+              <div class="card-body">
+                <div class="icon-card">
+                  <i class="fa-solid fa-briefcase middle"></i>
+                </div>
+                <h2 class="text-people">
+                  People Develpoment & General Service
+                </h2>
+                <p class="text-positions">39 Positions</p>
+              </div>
             </div>
-            <h2 class="text-people">People Develpoment & General Service</h2>
-            <p class="text-positions">39 Positions</p>
           </div>
-        </div>
-
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-body">
-            <div class="icon-card">
-              <i class="fa-solid fa-briefcase middle"></i>
+          <!-- Akhir Card 1 -->
+          <!-- Card 2 -->
+          <div class="card tagline-delay">
+            <div class="card-body">
+              <div class="icon-card">
+                <i class="fa-solid fa-briefcase middle"></i>
+              </div>
+              <h2 class="text-people">People Develpoment & General Service</h2>
+              <p class="text-positions">39 Positions</p>
             </div>
-            <h2 class="text-people">People Develpoment & General Service</h2>
-            <p class="text-positions">39 Positions</p>
           </div>
-        </div>
-
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-body">
-            <div class="icon-card">
-              <i class="fa-solid fa-briefcase middle"></i>
+          <!-- Akhir Card 2 -->
+          <!-- Card 3 -->
+          <div class="card tagline-down-delay">
+            <div class="card-body">
+              <div class="icon-card">
+                <i class="fa-solid fa-briefcase middle"></i>
+              </div>
+              <h2 class="text-people">People Develpoment & General Service</h2>
+              <p class="text-positions">39 Positions</p>
             </div>
-            <h2 class="text-people">People Develpoment & General Service</h2>
-            <p class="text-positions">39 Positions</p>
           </div>
-        </div>
-
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-body">
-            <div class="icon-card">
-              <i class="fa-solid fa-briefcase middle"></i>
+          <!-- Akhir Card 3 -->
+          <!-- Card 4 -->
+          <div class="card tagline-delay">
+            <div class="card-body">
+              <div class="icon-card">
+                <i class="fa-solid fa-briefcase middle"></i>
+              </div>
+              <h2 class="text-people">People Develpoment & General Service</h2>
+              <p class="text-positions">39 Positions</p>
             </div>
-            <h2 class="text-people">People Develpoment & General Service</h2>
-            <p class="text-positions">39 Positions</p>
           </div>
-        </div>
-
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-body">
-            <div class="icon-card">
-              <i class="fa-solid fa-briefcase middle"></i>
+          <!-- Akhir Card 4 -->
+          <!-- Card 5 -->
+          <div class="card tagline-down-delay">
+            <div class="card-body">
+              <div class="icon-card">
+                <i class="fa-solid fa-briefcase middle"></i>
+              </div>
+              <h2 class="text-people">People Develpoment & General Service</h2>
+              <p class="text-positions">39 Positions</p>
             </div>
-            <h2 class="text-people">People Develpoment & General Service</h2>
-            <p class="text-positions">39 Positions</p>
           </div>
+          <!-- Akhir Card 5 -->
+          <!-- Card 6 -->
+          <div class="card tagline-delay">
+            <div class="card-body">
+              <div class="icon-card">
+                <i class="fa-solid fa-briefcase middle"></i>
+              </div>
+              <h2 class="text-people">People Develpoment & General Service</h2>
+              <p class="text-positions">39 Positions</p>
+            </div>
+          </div>
+          <!-- Akhir Card 6 -->
+          <!-- Card 6 -->
+          <div></div>
+          <!-- Akhir Card 6 -->
         </div>
       </div>
-      <button class="btn btn-vecancies text-center justify-content-center">
-        More Vacancies
-      </button>
+      <button class="btn btn-vacancies">More Vacancies</button>
     </div>
 
     <!-- Lokasi Kami -->
@@ -500,8 +541,8 @@
         <div class="row align-items-center">
           <div class="col-lg-2"></div>
           <div class="col-lg-8">
-            <h1 class="text-lokasi">Lokasi Kami</h1>
-            <h3 class="text-kerja">
+            <h1 class="text-lokasi tagline-core-right">Lokasi Kami</h1>
+            <h3 class="text-kerja tagline-core-left">
               Kerja lebih dekat dengan tempat tinggalmu tidak menjadi masalah,
               karena kami ada dimana saja
             </h3>
@@ -509,14 +550,14 @@
           <div class="col-lg-1">
             <img
               src="/images/ills/App-HC_Area Wilayah.png"
-              class="img-lokasi"
+              class="img-lokasi tagline"
               alt="lokasi"
             />
           </div>
         </div>
         <div class="row mt-4 justify-content-center">
           <!-- Dropdown 1 -->
-          <div class="dropdown">
+          <div class="dropdown tagline">
             <button
               class="btn btn-dropdown-lokasi"
               type="button"
@@ -536,7 +577,7 @@
             </div>
           </div>
           <!-- Dropdown 2 -->
-          <div class="dropdown">
+          <div class="dropdown tagline-down">
             <button
               class="btn btn-dropdown-lokasi"
               type="button"
@@ -558,13 +599,13 @@
 
           <!-- Button Search -->
           <button
-            class="btn btn-search-lokasi text-center justify-content-center"
+            class="btn btn-search-lokasi text-center justify-content-center tagline-core-right"
           >
             Search
           </button>
         </div>
       </div>
-      <div class="card-lokasi">
+      <div class="card-lokasi tagline-core-left-delay">
         <div class="row">
           <div class="col-lg-1">
             <div class="icon-card mt-4 ml-4">
@@ -586,49 +627,147 @@
     <!-- FAQ -->
     <div class="body-6">
       <h1 class="text-center bold">FAQ</h1>
-      <!-- Accordion FAQ -->
       <div class="container">
-        <ul>
-          <li>
-            <input type="checkbox" checked="" />
-            <i></i>
-            <h4>Cara melamarnya seperti apa?</h4>
-            <p>Cara melamarnya silahkan kamu registrasi halaman ini</p>
-          </li>
+        <div id="accordion">
+          <div class="card-1">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Cara melamarnya seperti apa?
+                </button>
+              </h5>
+            </div>
 
-          <li>
-            <input type="checkbox" checked="" />
-            <i></i>
-            <h4>Cara melamarnya seperti apa?</h4>
-            <p>Cara melamarnya silahkan kamu registrasi halaman ini</p>
-          </li>
-
-          <li>
-            <input type="checkbox" checked="" />
-            <i></i>
-            <h4>Cara melamarnya seperti apa?</h4>
-            <p>Cara melamarnya silahkan kamu registrasi halaman ini</p>
-          </li>
-
-          <li>
-            <input type="checkbox" checked="" />
-            <i></i>
-            <h4>Cara melamarnya seperti apa?</h4>
-            <p>Cara melamarnya silahkan kamu registrasi halaman ini</p>
-          </li>
-
-          <li>
-            <input type="checkbox" checked="" />
-            <i></i>
-            <h4>Cara melamarnya seperti apa?</h4>
-            <p>Cara melamarnya silahkan kamu registrasi halaman ini</p>
-          </li>
-        </ul>
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Cara melamarnya silahkan kamu registrasi halaman ini
+              </div>
+            </div>
+          </div>
+          <div class="card-1">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Cara melamarnya seperti apa?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Cara melamarnya silahkan kamu registrasi halaman ini
+              </div>
+            </div>
+          </div>
+          <div class="card-1">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Cara melamarnya seperti apa?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Cara melamarnya silahkan kamu registrasi halaman ini
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Akhir FAQ -->
 
     <!-- Script -->
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(".slider").slick({
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplaySpeed: 2000,
+        variableWidth: true,
+        prevArrow:
+          '<button class="btn slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+        nextArrow:
+          '<button class="btn slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+      });
+    </script>
+
+    <!-- Akhir Slick -->
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 800,
+        delay: 4,
+      });
+      ScrollReveal().reveal(".tagline", { delay: 100 });
+      ScrollReveal().reveal(".inner-form, .tagline-about, .tagline-core-left", {
+        delay: 200,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".tagline-about-2, .tagline-core-left-delay", {
+        delay: 600,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".tagline-core-right-delay", {
+        delay: 600,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".tagline-about-img, .tagline-core-right", {
+        delay: 300,
+        origin: "right",
+      });
+      ScrollReveal().reveal(".tagline-down", {
+        delay: 200,
+        origin: "top",
+      });
+      ScrollReveal().reveal(".tagline-down-delay", {
+        delay: 600,
+        origin: "top",
+      });
+      ScrollReveal().reveal(".tagline-delay", {
+        delay: 600,
+      });
+    </script>
     <script>
       const navbar = document.querySelector(".nav-fixed");
       window.onscroll = () => {
