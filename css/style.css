@@ -267,6 +267,10 @@ padding-bottom: 0px;
   margin-top: 260px;
 }
 
+.mt-11{
+  margin-top: 354px;
+}
+
 .body-3{
   position: relative;
   padding: 60px 60px 100px 60px;
@@ -582,5 +586,79 @@ header.nav-fixed {
 
 .ml-20{
   margin-left: 180px;
+}
+
+/* Concern */
+.afability-body{
+height: 650px;
+width: 100%;
+}
+
+.afability-text h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.afability-text p{
+  font-size: 16px;
+}
+
+.aff-img-1{
+  position: absolute;
+  z-index: 4;
+  margin-top: 50px;
+}
+.aff-img-2{
+  position: absolute;
+  z-index: 3;
+  margin-left: 262px;
+}
+.aff-img-3{
+  position: absolute;
+  z-index: 2;
+  margin-top: 310px;
+}
+.aff-img-4{
+  position: absolute;
+  z-index: 1;
+  margin-top: 260px;
+  margin-left: 262px;
+}
+
+/* Alfamart Class */
+.text-class h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.title-text-class p{
+  font-size: 16px;
+  margin-top: 80px;
+  margin-left: 104px;
+}
+
+.class-img-1{
+  position: absolute;
+  z-index: 4;
+  margin-top: 50px;
+}
+.class-img-2{
+  position: absolute;
+  z-index: 3;
+  margin-left: 262px;
+  margin-top: 50px;
+}
+.class-img-3{
+  position: absolute;
+  z-index: 2;
+  margin-top: 310px;
+  margin-left: 262px;
+}
+.class-img-4{
+  position: absolute;
+  z-index: 1;
+  margin-top: 310px;
+  margin-left: 524px;
 }
 }
