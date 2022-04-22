@@ -18,7 +18,11 @@ body{
     --about-2: #4D4D4D;
 }
 
-
+@media (min-width: 1650px) {
+  .carousel-indicators{
+    margin-right: 15% !important;
+  }
+}
 
 /* Desktop */
 @media (min-width: 1280px) {
@@ -76,7 +80,7 @@ body{
 /* Carousel */
 .carousel-caption{
 text-align: left;
-margin-bottom: 250px;
+margin-bottom: 30px;
 padding-bottom: 0px;
 }
 
@@ -186,6 +190,7 @@ padding-bottom: 0px;
   left: unset;
   display: unset;
   top: 50vh;
+  margin-right: 5%;
 }
 
 .carousel-indicators li{
@@ -256,6 +261,10 @@ padding-bottom: 0px;
 
 .yellow{
     color: var(--primary);
+}
+
+.mt-10{
+  margin-top: 260px;
 }
 
 .body-3{
@@ -488,5 +497,90 @@ header.nav-fixed {
 }
 .ml-20{
     margin-left: 170px;
+}
+
+/* FAQ */
+
+.accordionItem {
+  transition: all 0.4s;
+  border-radius: 0.4rem;
+  background-color: #F7F7F7;
+  margin-top: 10px;
+}
+
+.accordionItem:first-child {
+  margin-top: 0 !important;
+}
+
+.accordionItem:last-child {
+  margin-bottom: 0 !important;
+}
+
+.accordionItem .header {
+  display: flex;
+  cursor: pointer;
+  padding: 10px 0px 0px 10px;
+  align-items: center;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+}
+
+.accordionItem .header h3,
+.accordionItem .header i {
+  pointer-events: none;
+}
+
+.accordionItem .header:hover {
+  background-color: #F7F7F7;
+}
+
+.accordionItem .header i {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.accordionItem .body {
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  transition: all 0.4s;
+  margin-left: 1.5rem;
+}
+
+.accordionItem.active {
+  margin: 10px 0px;
+  background-color: #ECECEC;
+}
+
+.accordionItem.active .body {
+  margin-top: 10px;
+  max-height: 20rem;
+  padding-bottom: 0.5rem;
+}
+
+.header-text{
+  font-size: 24px;
+  color: var(--secondary);
+  line-height: 1;
+}
+
+.body-text{
+  font-size: 24px;
+  color: var(--secondary);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.accordionItem.active .header {
+  background-color: #F7F7F7;
+}
+
+.accordionItem.active .header i {
+  transition: all 0.3s;
+  transform: rotate(90deg);
+}
+
+.ml-20{
+  margin-left: 180px;
 }
 }
