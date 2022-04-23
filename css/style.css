@@ -477,11 +477,19 @@ padding-bottom: 0px;
   border-radius: 25px;
 }
 
-.bootstrap-select>.dropdown-toggle {
+.dropdown-header {
 border-radius: 20px;
 color: #9D9D9D;
 background-color: #ECECEC;
 }
+
+.dropdown-bottom {
+  width: 210px !important;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  margin-left: 10px;
+  }
 
 .btn-search-lokasi{
   margin-left: 10px;
