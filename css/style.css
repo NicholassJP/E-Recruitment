@@ -352,6 +352,48 @@ padding-bottom: 0px;
     background-color: #F6F8FD;
     border: 0px solid;
     box-shadow: 0 10px 14px 0 #E5E5E5;
+    overflow: hidden;
+}
+
+.card:hover .card-hover{
+  bottom:0;
+}
+
+.card-hover{
+  color: white;
+  background-color: var(--secondary);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.text-people-hover{
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.text-artikel-hover{
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text-positions-hover{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container-tim{
+  padding: 50px 0px 0px 50px;
 }
 
 .icon-card{
