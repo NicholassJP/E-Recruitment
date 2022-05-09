@@ -215,7 +215,7 @@ padding-bottom: 0px;
   width: 1200px;
   height: max-content;
   display: flex;
-  background-image: url("/images/bg_kata_alfanesia.png");
+  background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/bg_kata_alfanesia.png");
   background-repeat: no-repeat;
   border-radius: 50px 0px 50px 0px;
 }
