@@ -151,7 +151,26 @@ padding-bottom: 0px;
 .katamereka{
   font-size: 35px;
   font-weight: 600;
+  color: #4A3C00;
+  text-align: left;
+}
+
+.caption-kata h1{
   color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.caption-kata h5{
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.caption-kata p{
+  color: white;
+  text-align: left;
+  margin-left: -15px;
 }
 
 .inner-search{
@@ -176,21 +195,43 @@ padding-bottom: 0px;
   padding-left: 10px;
 }
 
-.inner-kata{
-  width: 80%;
-  padding: 5rem;
-  align-items: center;
-  display: flex;
-  background-color: white;
-  margin-left: 100px;
-  border-radius: 40px 5px 40px 5px;
+.ml-11{
+  margin-left: 110px;
 }
 
-.inner-img-kata{
-  width: 278px;
-  height: 282px;
-  border-radius: 32px 0px 32px 0px;
-  transform: translateX(-10rem);
+.ml-12{
+  margin-left: 92px;
+}
+
+.mt-6{
+  margin-top: 90px;
+}
+
+.mt-8{
+  margin-top: 180px !important;
+}
+
+.inner-kata{
+  width: 1200px;
+  height: max-content;
+  display: flex;
+  background-image: url("/images/bg_kata_alfanesia.png");
+  background-repeat: no-repeat;
+  border-radius: 50px 0px 50px 0px;
+}
+
+.center-container{
+  text-align: -webkit-center;
+}
+
+.carousel-control-prev-icon {
+position: absolute;
+left: 160px;
+}
+
+.carousel-control-next-icon {
+position: absolute;
+right: 160px;
 }
 
 .caption-profile{
@@ -218,12 +259,27 @@ padding-bottom: 0px;
   height: 100vh;
 }
 
-.carousel-indicators{
+.carousel-indicators-1{
   bottom: unset;
   left: unset;
   display: unset;
   top: 50vh;
   margin-right: 5%;
+}
+
+.carousel-indicators-1 li{
+  width: 8px;
+  height: 8px;
+  margin: 6px;
+  background-clip: unset;
+  border-bottom: 0px solid transparent;
+  border-top: 0px solid transparent;
+  border-radius: 6px;
+}
+
+.carousel-indicators-1 .active {
+  opacity: 1;
+  width: 18px;
 }
 
 .carousel-indicators li{
@@ -237,41 +293,6 @@ padding-bottom: 0px;
 }
 
 .carousel-indicators .active {
-  opacity: 1;
-  width: 18px;
-}
-
-.carousel-indicators-1 {
-  position: absolute;
-  right: 0;
-  top: 104%;
-  left: 0;
-  z-index: 15;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
-  list-style: none;
-}
-
-.carousel-indicators-1 li {
-  border-radius: 6px;
-  opacity: 0.5;
-  box-sizing: content-box;
-  width: 7px;
-  height: 7px;
-  margin-right: 3px;
-  margin-left: 3px;
-  cursor: pointer;
-  background-color: white;
-  background-clip: padding-box;
-  transition: opacity .6s ease;
-}
-
-.carousel-indicators-1 .active {
   opacity: 1;
   width: 18px;
 }
@@ -304,13 +325,7 @@ padding-bottom: 0px;
   margin-top: 354px;
 }
 
-.body-3{
-  position: relative;
-  padding: 60px 60px 100px 60px;
-  background-color: var(--primary);
-  height: max-content;
-  width: 100%;
-}
+
 
 .body-4{
     -ms-overflow-style: none;  /* IE and Edge */
@@ -396,19 +411,8 @@ padding-bottom: 0px;
   padding: 50px 0px 0px 50px;
 }
 
-.icon-card{
-  color: var(--secondary);
-  font-size: 30px;
-  padding: 10px;
-  width: 68px;
-  height: 68px;
-  text-align: center;
-  background-color: #DDE8F4;
-  border-radius: 100%;
-}
-
 .text-people{
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -419,7 +423,7 @@ padding-bottom: 0px;
   padding: 80px;
   width: 100%;
   height: max-content;
-  background-image: linear-gradient(0deg, #DBF0FF 0%, rgba(255, 255, 255, 0) 100%);
+  background: #C3EBFF;
 }
 
 .text-lokasi{
@@ -435,10 +439,6 @@ padding-bottom: 0px;
   text-align: center;
   color: #6d7278;
   font-weight: 400;
-}
-
-.img-lokasi{
-  width: 236px;
 }
 
 .inner-form{
@@ -593,6 +593,14 @@ background-color: #ECECEC;
 
 .text-positions{
   margin-top: 30px;
+  font-size: 16px;
+  color: var(--secondary);
+  font-weight: bold;
+  text-align: left;
+}
+
+.text-positions-1{
+  margin-top: 55px;
   font-size: 16px;
   color: var(--secondary);
   font-weight: bold;
@@ -983,5 +991,38 @@ font-weight: 600;
     transform: translateY(1rem);
   }
 }
+}
 
+/* Container XL */
+@media (min-width: 576px){
+  .container-xl {
+      max-width: 540px;
+  }
+  }
+
+  @media (min-width: 768px){
+      .container-xl {
+          max-width: 720px;
+      }
+      }
+  
+
+@media (min-width: 992px){
+.container-xl {
+  max-width: 960px;
+}
+}
+
+@media (min-width: 1200px){
+  .container-xl {
+      max-width: 1440px;
+      }
+  }
+
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
