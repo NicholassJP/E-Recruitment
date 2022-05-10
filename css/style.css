@@ -88,6 +88,12 @@ body{
   border-radius: 0;
 }
 
+.bg-banner{
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+}
+
 /* Carousel */
 .carousel-caption{
 text-align: left;
@@ -211,6 +217,14 @@ padding-bottom: 0px;
   margin-top: 180px !important;
 }
 
+.p-12{
+  padding: 0px 100px 0px 100px !important;
+}
+
+.mt-12{
+  margin-top: 1.8rem;
+}
+
 .inner-kata{
   width: 1200px;
   height: max-content;
@@ -318,7 +332,8 @@ right: 160px;
 }
 
 .mt-10{
-  margin-top: 260px;
+  margin-top: 50px;
+  margin-bottom: 210px;
 }
 
 .mt-11{
@@ -600,7 +615,7 @@ background-color: #ECECEC;
 }
 
 .text-positions-1{
-  margin-top: 55px;
+  margin-top: 58px;
   font-size: 16px;
   color: var(--secondary);
   font-weight: bold;
