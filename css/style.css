@@ -616,6 +616,17 @@ background-color: #ECECEC;
   color: white;
 }
 
+.btn-faq{
+  border-radius: 25px;
+  background-color: #005DA6;
+  color: white;
+}
+
+.btn-faq:hover{
+  background-color: var(--secondary_hover);
+  color: white;
+}
+
 .btn-vacancies{
     border-radius: 25px;
     background-color: #005DA6;
@@ -659,6 +670,7 @@ background-color: #ECECEC;
   background-color: white;
   width: 100%;
   height: max-content;
+  text-align-last: center;
 }
 
 .text-positions{
