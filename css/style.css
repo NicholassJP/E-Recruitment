@@ -350,6 +350,7 @@ right: 160px;
     width: 100%;
     text-align: center;
     overflow: hidden;
+    z-index: -9999;
   }
 
 .body-4::-webkit-scrollbar {
@@ -517,7 +518,7 @@ right: 160px;
    position: absolute;
    left: 0;
    bottom: 50px;
-   z-index: 0;
+   z-index: -1;
  }
 
  .nb{
