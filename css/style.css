@@ -356,7 +356,7 @@ right: 160px;
     width: 100%;
     text-align: center;
     overflow: hidden;
-    z-index: -9999;
+    z-index: 1;
   }
 
 .body-4::-webkit-scrollbar {
@@ -539,7 +539,7 @@ right: 160px;
    position: absolute;
    left: 0;
    bottom: 50px;
-   z-index: -1;
+   z-index: -999;
  }
 
  .nb{
@@ -611,9 +611,19 @@ background-color: #ECECEC;
   color: white;
 }
 
+.btn-search-lokasi:hover{
+  background-color: var(--secondary_hover);
+  color: white;
+}
+
 .btn-vacancies{
     border-radius: 25px;
     background-color: #005DA6;
+    color: white;
+  }
+
+  .btn-vacancies:hover{
+    background-color: var(--secondary_hover);
     color: white;
   }
 
