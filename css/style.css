@@ -20,14 +20,29 @@ body{
     --about-2: #4D4D4D;
 }
 
+
+
 @media (min-width: 1650px) {
   .carousel-indicators{
     margin-right: 15% !important;
   }
 }
+@media (max-width: 1652px){
+.bg-banner{
+ visibility: hidden;
+}
+}
+
 
 /* Desktop */
 @media (min-width: 1280px) {
+  .bg-banner{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -60px;
+    width: 100%; 
+  }
     .navbar-brand,
     .nav-link {
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -88,13 +103,7 @@ body{
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
-}
-
-.bg-banner{
-  position: absolute;
-  bottom: -60px;
-  width: 100%;
-}
+} 
 
 /* Carousel */
 .carousel-caption{
@@ -270,11 +279,6 @@ right: 160px;
 
 .mt-40{
   margin-top: 40px;
-}
-
-.carousel-item img{
- width: 100%;
- height: auto;
 }
 
 .carousel-indicators-1{
