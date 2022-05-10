@@ -513,6 +513,13 @@ right: 160px;
   width: 800px;
  }
 
+ .bg-dot{
+   position: absolute;
+   left: 0;
+   bottom: 50px;
+   z-index: 0;
+ }
+
  .nb{
      margin-bottom: 0px;
  }
