@@ -11,7 +11,9 @@ body{
     --primary: #FFCA00;
     --primary_hover: #bd9700;
     --secondary: #005DA6;
+    --secondary_hover: #07426e;
     --secondary-red:#E02020;
+    --secondary-red_hover:#a50f0f;
     --neutral:#9D9D9D;
     --netural-2: #848489;
     --about: #272727;
@@ -436,6 +438,16 @@ right: 160px;
   text-align: left;
 }
 
+.icon-card{
+  background-color: #E6EFF6;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 18px;
+  color: #005DA6;
+}
+
 /* Lokasi Kami */
 .body-5{
   padding: 80px;
@@ -481,6 +493,11 @@ right: 160px;
   align-items: center !important;
   border-radius: 20px;
   background-color: #005DA6;
+  color: white;
+}
+
+.btn-search:hover{
+  background-color: #07426e;
   color: white;
 }
 
@@ -550,6 +567,11 @@ right: 160px;
   align-items: center !important;
   border-radius: 20px;
   background-color: #E02020;
+  color: white;
+}
+
+.btn-job:hover{
+  background-color: #a50f0f;
   color: white;
 }
 
