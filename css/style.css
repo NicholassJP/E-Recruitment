@@ -340,8 +340,6 @@ right: 160px;
   margin-top: 354px;
 }
 
-
-
 .body-4{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -500,6 +498,19 @@ right: 160px;
   object-position: center;
   object-fit: cover;
   margin-right: 16px;
+ }
+
+ .bg-right-blue{
+   position: absolute;
+   bottom: 52%;
+   right: 0;
+   width: 800px;
+ }
+
+ .bg-left-blue{
+  position: absolute;
+  bottom: 2%;
+  width: 800px;
  }
 
  .nb{
