@@ -135,8 +135,9 @@ color: #BFBFBF !important;
 text-shadow: none;
 }
 
-.active {
+.nav-click {
     color: black !important;
     font-weight: 600;
     text-shadow: none;
     }
+    
