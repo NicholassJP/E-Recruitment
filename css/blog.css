@@ -82,14 +82,12 @@ width: 0%;
 .card-blog{
     position: relative; 
     background-image: url(/images/blog_card_1.jpg);
-    background-size: cover;
     height: 300px;
-    padding: 150px;
     border-radius: 0px 0px 40px 0px;
 }
 
-.card-blog::after{
-    background-color: rgba(0,0,0,0.25);
+.card-blog:hover{
+    opacity: 60%;
 }
 
 .card-blog figcaption{
@@ -97,9 +95,27 @@ width: 0%;
 }
 
 .card-blog:hover figcaption{
+    position: absolute;
+    top: 46%;
+    left: 42%;
     opacity: 1;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    border: 1px solid #FFFFFF;
+    border-radius: 30.5px;
+    width: max-content;
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 .text-blog h3{
@@ -135,9 +151,14 @@ color: #BFBFBF !important;
 text-shadow: none;
 }
 
-.nav-click {
-    color: black !important;
+.button-show{
+    background-color: #005DA6;
+    color: white;
+    border-radius: 25px;
+    width: 160px;
+    height: 50px;  
     font-weight: 600;
-    text-shadow: none;
-    }
+    padding: 10px 0px 0px 0px;
+}
+
     
