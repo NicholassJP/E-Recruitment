@@ -129,3 +129,14 @@ width: 0%;
 .padding-blog{
     padding: 50px;
 }
+
+.navbar-brand, .nav-link {
+color: #BFBFBF !important;
+text-shadow: none;
+}
+
+.active {
+    color: black !important;
+    font-weight: 600;
+    text-shadow: none;
+    }
