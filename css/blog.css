@@ -7,17 +7,13 @@
 }
 
 .bg-header-blog{
-    background-image: url("/images/blog_header.png");
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_header.png");
     width: 500px;
     height: 500px;
     border-radius: 0px 0px 40px 0px;
 }
 
 /* Carousel */
-.carousel-control-prev-icon .carousel-control-prev-icon-1{
-
-}
-
 .carousel-control-prev-icon {
     width: 40px;
     height: 40px;
@@ -86,33 +82,33 @@ width: 0%;
 }
 
 .card-1{
-    background-image: url(/images/blog_card_1.jpg);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_1.jpg");
 }
 
 .card-2{
-    background-image: url(/images/blog_card_2.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_2.png");
 }
 
 .card-3{
-    background-image: url(/images/blog_card_3.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_3.png");
 }
 .card-4{
-    background-image: url(/images/blog_card_4.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_4.png");
 }
 .card-5{
-    background-image: url(/images/blog_card_5.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_5.png");
 }
 .card-6{
-    background-image: url(/images/blog_card_6.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_6.png");
 }
 .card-7{
-    background-image: url(/images/blog_card_7.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_7.png");
 }
 .card-8{
-    background-image: url(/images/blog_card_8.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_8.png");
 }
 .card-9{
-    background-image: url(/images/blog_card_9.png);
+    background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/blog_card_9.png");
 }
 
 .card-blog:hover{
