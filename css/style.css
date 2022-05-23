@@ -30,15 +30,14 @@ body{
 
 @media (max-width: 1652px){
   .carousel-indicators-1 {
-    top: 40vh !important;
+    top: 34vh !important;
 }
-
-  .mt-10 {
-    margin-bottom: 320px !important;
+.ml-15{
+  margin-left: -30px !important;
 }
-  .bg-banner{
-  bottom: 140px !important;
-  }
+.mt-10{
+  margin-bottom: 110px !important;
+}
 }
 
 /* Desktop */
@@ -533,15 +532,15 @@ right: 160px;
 
  .bg-right-blue{
    position: absolute;
-   bottom: 52%;
+   bottom: 57%;
    right: 0;
-   width: 800px;
+   width: 530px;
  }
 
  .bg-left-blue{
   position: absolute;
   bottom: 2%;
-  width: 800px;
+  width: 530px;
  }
 
  .bg-dot{
