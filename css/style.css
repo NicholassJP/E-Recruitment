@@ -6,6 +6,7 @@ html{
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
 }
 
 :root{
@@ -39,20 +40,6 @@ body{
   bottom: 140px !important;
   }
 }
-
-@media (max-height: 780px) {
-  .carousel-caption {
-    text-align: left;
-    margin-bottom: -10px !important;
-}
-} 
-
-@media (max-height: 700px) {
-  .carousel-caption {
-    text-align: left;
-    margin-bottom: -20px !important;
-}
-} 
 
 /* Desktop */
 @media (min-width: 1280px) {
