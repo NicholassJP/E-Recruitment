@@ -2,6 +2,18 @@
   margin-bottom: 60px;
   }
 
+  .btn-play{
+      position: absolute;
+      padding: 11px 0px 0px 0px;
+      top: 40%;
+      left: 40%;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: var(--primary);
+      color: white;
+  }
+
 /* Concern */
 .afability-body{
     height: 650px;

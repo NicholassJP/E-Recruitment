@@ -30,9 +30,16 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+
+    <!-- Lity -->
+    <link href="lity-master/dist/lity.css" rel="stylesheet" />
+    <script src="lity-master/vendor/jquery.js"></script>
+    <script src="lity-master/dist/lity.js"></script>
+
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/concern.css" />
+    <link rel="stylesheet" href="imagehover.css-master/css/imagehover.css" />
 
     <title>E-Recruitment</title>
   </head>
@@ -185,12 +192,18 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <img
-            class="class-img-1 tagline-core-left"
-            src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/affinity/1.png"
-            alt=""
-            width="242px"
-          />
+          <figure class="imghvr-fade class-img-1 tagline-core-left">
+            <img
+              src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/affinity/1.png"
+            />
+            <a
+              href="https://www.youtube.com/embed/3-VkGq3nYMw"
+              class="btn btn-play"
+              data-lity
+              ><i class="fa-solid fa-play"></i
+            ></a>
+            <figcaption>Hover Content</figcaption>
+          </figure>
           <img
             class="class-img-2 tagline-core-right"
             src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/affinity/2.png"
