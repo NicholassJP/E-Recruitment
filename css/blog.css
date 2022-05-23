@@ -2,6 +2,12 @@
     .fixed-top {
         background-color: white;
     }
+    .carousel-control-next-icon {
+       display: none;
+    }
+    .carousel-control-prev-icon {
+        display: none;
+    }
     .bg-header-blog{
         width: 374px !important;
         height: 300px !important;

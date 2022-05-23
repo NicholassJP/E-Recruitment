@@ -21,13 +21,12 @@ body{
     --about-2: #4D4D4D;
 }
 
-
-
 @media (min-width: 1650px) {
   .carousel-indicators{
     margin-right: 15% !important;
   }
 }
+
 @media (max-width: 1652px){
   .carousel-indicators-1 {
     top: 40vh !important;
@@ -40,7 +39,6 @@ body{
   bottom: 65px !important;
   }
 }
-
 
 /* Desktop */
 @media (min-width: 1280px) {
@@ -117,7 +115,6 @@ body{
 .carousel-caption{
 text-align: left;
 margin-bottom: 30px;
-padding-bottom: 0px;
 }
 
 .carousel-item{
@@ -245,6 +242,24 @@ padding-bottom: 0px;
   margin-top: 1.8rem;
 }
 
+.mt-40{
+  margin-top: 40px;
+}
+
+.mt-10{
+  margin-top: 50px;
+  margin-bottom: 210px;
+}
+
+.mt-19{
+  margin-top: 260px;
+}
+
+.mt-11{
+  margin-top: 354px;
+}
+
+
 .inner-kata{
   width: 1200px;
   height: max-content;
@@ -283,10 +298,6 @@ right: 160px;
 
 .caption-kata{
   transform: translateX(-3rem);
-}
-
-.mt-40{
-  margin-top: 40px;
 }
 
 .carousel-indicators-1{
@@ -347,19 +358,6 @@ right: 160px;
     color: var(--primary);
 }
 
-.mt-10{
-  margin-top: 50px;
-  margin-bottom: 210px;
-}
-
-.mt-19{
-  margin-top: 260px;
-}
-
-.mt-11{
-  margin-top: 354px;
-}
-
 .body-4{
     position: relative;
     padding: 60px 0px 80px 0px;
@@ -386,8 +384,6 @@ right: 160px;
   text-align: center;
   color: var(--about-2);
 }
-
-
 
 .card{
     margin-left: 20px;
@@ -862,178 +858,10 @@ header.nav-fixed {
   margin-left: 180px;
 }
 
-/* Concern */
-.afability-body{
-height: 650px;
-width: 100%;
-}
-
-.afability-text h1{
-  font-size: 40px;
-  font-weight: 600;
-}
-.afability-text p{
-  font-size: 16px;
-}
-
-.aff-img-1{
-  position: absolute;
-  z-index: 4;
-  margin-top: 50px;
-}
-.aff-img-2{
-  position: absolute;
-  z-index: 3;
-  margin-left: 262px;
-}
-.aff-img-3{
-  position: absolute;
-  z-index: 2;
-  margin-top: 310px;
-}
-.aff-img-4{
-  position: absolute;
-  z-index: 1;
-  margin-top: 260px;
-  margin-left: 262px;
-}
-
-/* Alfamart Class */
-.body-class{
-background-color: #F4F9FD;
-padding: 50px;
-width: 100%;
-height: 710px;
-}
-
-.text-class h1{
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  color: var(--secondary);
-}
-
-.title-text-class p{
-  font-size: 16px;
-  margin-top: 80px;
-  margin-left: 104px;
-}
-
-.class-img-1{
-  position: absolute;
-  z-index: 4;
-  margin-top: 50px;
-}
-.class-img-2{
-  position: absolute;
-  z-index: 3;
-  margin-left: 262px;
-  margin-top: 50px;
-}
-.class-img-3{
-  position: absolute;
-  z-index: 2;
-  margin-top: 310px;
-  margin-left: 262px;
-}
-.class-img-4{
-  position: absolute;
-  z-index: 1;
-  margin-top: 310px;
-  margin-left: 524px;
-}
-
-/* Internship */
-.body-internship{
-  padding: 50px;
-  text-align: center;
-  height: 480px;
-}
-
-.body-internship h1{
-  font-size: 40px;
-  font-weight: 600;
-  color: var(--secondary);
-}
-
-.body-internship p{
-  margin-top: 50px;
-  font-size: 16px;
-}
-
-.inter-container{
-  position: absolute;
-  width: 95%;
-  text-align: center;
-  margin-top: 40px;
-}
-.inter-container img{
-  margin-left: 10px;
-}
 
 .row{
   margin-right: 0px;
   margin-left: 0px;
-}
-
-/* Development Program Eksternal */
-.body-eksternal{
-  width: 100%;
-  background-image: linear-gradient(180deg, #FCDB00 0%, #F7B500 100%);
-  height: 750px;
-  padding: 160px 0px 0px 80px;
-}
-
-.text-eksternal h1{
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.text-eksternal p{
-  font-size: 16px;
-}
-
-.eksternal-img-1{
-  position: absolute;
-  z-index: 4;
-  margin-top: 50px;
-}
-.eksternal-img-2{
-  position: absolute;
-  z-index: 3;
-  margin-left: 262px;
-  margin-top: 50px;
-}
-.eksternal-img-3{
-  position: absolute;
-  z-index: 2;
-  margin-top: 306px;
-  margin-left: 262px;
-}
-.eksternal-img-4{
-  position: absolute;
-  z-index: 1;
-  margin-top: 306px;
-  margin-left: 524px;
-}
-
-/* Life at Alafamart */
-.body-life-alfamart{
-width: 100%;
-height: 900px;
-background-image: linear-gradient(180deg, #DBF0FF 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.text-life{
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.p-life p{
-  margin-top: 60px;
-  font-size: 16px;
-  color: #272727;
 }
 
 /* Vacancies */
