@@ -29,10 +29,10 @@
 
 [class^="imghvr-"] figcaption,
 [class*=" imghvr-"] figcaption {
-    background-color: #135796;
-    padding: 10px;
+    background: rgba(0, 93, 166, 0.8);
+    padding: 32px;
     position: absolute;
-    border-radius: 8px;
+    border-radius: 0px 0px 40px 8px;
     bottom: 0;
     left: 0;
     right: 0;
