@@ -40,8 +40,118 @@ body{
 }
 }
 
+/* Mobile */
+.carousel-item{
+  padding: 100px 0px 0px 0px;
+}
+
+.carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  background-clip: unset;
+  border-bottom: 0px solid transparent;
+  border-top: 0px solid transparent;
+  border-radius: 6px;
+}
+
+.carousel-indicators{
+  margin-top: -26px;
+}
+
+.bg-banner{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -60px;
+  max-width: 300px; 
+}
+
+.fixed-top {
+  background-color: white;
+}
+
+/* Text */
+.vacancies-text h1{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vacancies-text h4{
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Card */
+.card{
+  width: unset;
+  height: 306px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F6F8FD;
+  border: 0px solid;
+  box-shadow: 0 10px 14px 0 #E5E5E5;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card:hover .card-hover{
+bottom:0;
+}
+
+.card-hover{
+color: white;
+background-color: var(--secondary);
+position: absolute;
+bottom: -100%;
+left: 0;
+height: 100%;
+padding: 20px;
+box-sizing: border-box;
+border-radius: 10px;
+transition: all 0.5s;
+overflow: hidden;
+}
+
+.text-people-hover{
+margin-top: 24px;
+font-size: 24px;
+font-weight: bold;
+text-align: left;
+}
+
+.text-artikel-hover{
+margin-top: 12px;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+.text-positions-hover{
+font-size: 16px;
+font-weight: bold;
+text-align: left;
+}
+
+/* Btn Play */
+.btn-play{
+  position: absolute;
+  padding: 18px 1px 18px 0px;
+  top: 34%;
+  left: 40%;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: var(--primary);
+  color: white;
+}
+
 /* Desktop */
 @media (min-width: 1280px) {
+  .fixed-top {
+   background-color: unset;
+  }
   .bg-banner{
     position: absolute;
     left: 0px;
@@ -118,6 +228,7 @@ margin-bottom: 30px;
 }
 
 .carousel-item{
+  padding: unset;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -154,15 +265,7 @@ margin-bottom: 30px;
 }
 
 .btn-play{
-  position: absolute;
-  padding: 18px 1px 18px 0px;
-  top: 34%;
   left: 53%;
-  width: 65px;
-  height: 65px;
-  border-radius: 100%;
-  background-color: var(--primary);
-  color: white;
 }
 
 .btn-vecancies{
@@ -385,54 +488,6 @@ right: 160px;
   color: var(--about-2);
 }
 
-.card{
-    margin-left: 20px;
-    width: 380px;
-    height: 306px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #F6F8FD;
-    border: 0px solid;
-    box-shadow: 0 10px 14px 0 #E5E5E5;
-    overflow: hidden;
-}
-
-.card:hover .card-hover{
-  bottom:0;
-}
-
-.card-hover{
-  color: white;
-  background-color: var(--secondary);
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  transition: all 0.5s;
-}
-
-.text-people-hover{
-  margin-top: 24px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.text-artikel-hover{
-  margin-top: 12px;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-}
-
-.text-positions-hover{
-  font-size: 16px;
-  font-weight: bold;
-  text-align: left;
-}
 
 .container-tim{
   padding: 50px 0px 0px 50px;
@@ -858,7 +913,6 @@ header.nav-fixed {
   margin-left: 180px;
 }
 
-
 .row{
   margin-right: 0px;
   margin-left: 0px;
@@ -874,6 +928,14 @@ header.nav-fixed {
   font-size: 35px;
   font-weight: bold;
   color: #4D4D4D;
+}
+
+/* Card */
+.card{
+  width: 380px;
+  margin-left: 20px;
+  margin-bottom: unset;
+  overflow: hidden;
 }
 
 /* Seleksi alfamart */
