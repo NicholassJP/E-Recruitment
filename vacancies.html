@@ -353,7 +353,7 @@
       <div class="row mt-12">
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_MERCHANDISING-.png"
@@ -378,7 +378,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_LOGISTIC-.png"
@@ -403,7 +403,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_INFORMATION%20TECHNOLOGY-.png"
@@ -432,7 +432,7 @@
       <div class="row mt-12">
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_HUMAN%20CAPITAL-.png"
@@ -457,7 +457,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_FRANCHISE-.png"
@@ -482,7 +482,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_FINANCE-.png"
@@ -511,7 +511,7 @@
       <div class="row mt-12">
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_CORPORATE%20AUDIT.png"
@@ -536,7 +536,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_CORPORATE%20AFFAIRS.png"
@@ -561,7 +561,7 @@
         </div>
         <div class="col-lg-4">
           <div>
-            <div class="card tagline-down">
+            <div class="card tagline-down hideclass">
               <div class="card-body">
                 <img
                   src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills_icon/Icon_BUSINESS%20CONTROLLING-.png"
@@ -584,8 +584,8 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-vacancies">Show More</button>
       </div>
+      <button class="btn btn-show">Show More</button>
     </div>
 
     <!-- Proses Seleksi -->
@@ -623,38 +623,14 @@
     </div>
 
     <!-- Script -->
-    <!-- FAQ -->
     <script>
-      let accordion = document.querySelector(".accordionBox"),
-        accordionItem = document.querySelectorAll(".accordionItem");
-      accordionItem.forEach((elem) => {
-        elem.addEventListener("click", function (e) {
-          e.srcElement.parentElement.classList.toggle("active");
-        });
+      $(".hideclass").hide(); //To hide extra contents
+
+      $(".btn-show").on("click", function () {
+        $(this).hide();
+        $(".hideclass").show();
       });
     </script>
-
-    <!-- Slick -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script>
-      $(".slider").slick({
-        infinite: false,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplaySpeed: 2000,
-        variableWidth: true,
-        prevArrow:
-          '<button class="btn slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-        nextArrow:
-          '<button class="btn slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
-      });
-    </script>
-
-    <!-- Akhir Slick -->
 
     <!-- Scroll Reveal -->
     <script>
