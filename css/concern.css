@@ -52,8 +52,11 @@
 .karyawan-dis .ills-office img {
   position: absolute;
   margin-top: 50px;
-  width: 60%;
-  left: 24rem;
+  width: 1178px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 /* Alfamart Class */
@@ -117,14 +120,18 @@
 .siswa-alfa {
   position: absolute;
   margin-top: 100px;
-  left: 12rem;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-left: 20px;
 }
 
 .siswa-alfa h4 {
   font-size: 40px;
   color: #005da6;
   font-weight: bold;
-  width: 22%;
+  width: 300px;
   text-align: left;
 }
 
@@ -133,6 +140,7 @@
   height: 185px;
   border: 11px solid rgba(12, 117, 199, 0.11);
   border-radius: 100%;
+  margin-left: 3rem;
 }
 
 .info-circle-inner {
