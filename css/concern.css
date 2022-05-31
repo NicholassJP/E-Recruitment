@@ -28,12 +28,42 @@
       font-size: 16px;
     }
 
+    /* Karyawan Disabilitas */
+    .karyawan-dis{
+      width: 100%;
+      height: max-content;
+      padding: 50px 0px 340px 0px;
+    }
+
+    .karyawan-dis h5{
+      color: #005DA6;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .karyawan-dis img{
+      width: 120px;
+    }
+
+    .karyawan-dis .demographi{
+      width: 200px;
+    }
+
+    .karyawan-dis .ills-office img{
+      position: absolute;
+      margin-top: 50px;
+      width: 60%;
+      left: 24rem;
+    }
+
     /* Alfamart Class */
-.body-class{
-    background-color: #F4F9FD;
-    padding: 50px;
+  .body-class{
+    background-color: #E7F6FF;
+    padding-top: 120px;
+    padding-bottom: 200px;
     width: 100%;
-    height: 710px;
+    border-radius: 100px 0px 100px 0px;
+    height: max-content;
     }
     
     .text-class h1{
@@ -42,41 +72,98 @@
       font-weight: 600;
       color: var(--secondary);
     }
+
+    .title-text-class{
+      text-align: -webkit-center;
+    }
     
     .title-text-class p{
       font-size: 16px;
-      margin-top: 80px;
-      margin-left: 104px;
-    }
-    
-    .class-img-1{
-      position: absolute;
-      z-index: 4;
       margin-top: 50px;
+      width: 500px;
     }
-    .class-img-2{
-      position: absolute;
-      z-index: 3;
-      margin-left: 262px;
-      margin-top: 50px;
+
+    .bar{
+      text-align: left;
     }
-    .class-img-3{
-      position: absolute;
-      z-index: 2;
-      margin-top: 310px;
-      margin-left: 262px;
+
+    .circle-bar{
+      width:20px; 
+      max-width:20px;
+      display: inline-block;
+      height: 20px;
+      background-color: #005DA6;
+      border-radius: 50%;
     }
-    .class-img-4{
+
+    .bar p{
+      font-size: 18px;
+      margin-left: 1rem;
+      margin-bottom: 0;
+    }
+
+    .bar-label{
+      position: relative;
+      margin-top: 4px;
+      width: 1px;
+      height: 70px;
+      border-radius: 0;
+      border-style: dashed !important;
+      vertical-align:top;
+      border: 1px solid #005DA6;
+      margin-left: 0.6rem;
+    }
+
+    .siswa-alfa{
       position: absolute;
-      z-index: 1;
-      margin-top: 310px;
-      margin-left: 524px;
+      margin-top: 100px;
+      left: 12rem;
+    }
+
+    .siswa-alfa h4{
+      font-size: 40px;
+      color:#005DA6;
+      font-weight: bold;
+      width: 22%;
+      text-align: left;
+    }
+
+    .info-circle-outer{
+      width: 185px;
+      height: 185px;
+      border: 11px solid rgba(12, 117, 199, 0.11);
+      border-radius: 100%;
+    }
+
+    .info-circle-inner{
+      width: 164px;
+      height: 164px;
+      background-image: linear-gradient(180deg, #1CADE5 0%, #0C75C7 100%);
+      border-radius: 100%;
+      padding-top: 50px;
+      color: white;
+    }
+
+    .info-circle-inner h5{
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    .img-karyawan img{
+      margin-top: 200px;
+      margin-left: 30px;
+      border-radius: 20px 0px 20px 0px;
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
     }
 
 /* Internship */
 .body-internship{
-    padding: 50px;
-    height: 760px;
+    padding: 150px;
+    width: 100%;
+    height: max-content;
   }
   
   .body-internship h1{
@@ -120,7 +207,7 @@
     width: 30% !important;
     height: 48%;
     border-radius: 8px;
-  }
+  } 
 
   .img-top .img-1{
     top: 0;
@@ -154,13 +241,12 @@
     width: 100%;
     background-image: linear-gradient(180deg, #FCDB00 0%, #F7B500 100%);
     height: max-content;
-    padding: 160px 0px 80px 0px;
+    padding: 120px 0px 80px 0px;
   }
 
   .body-eksternal h1{
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
   }
 
 .card-dev{
