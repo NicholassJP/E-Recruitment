@@ -14,18 +14,41 @@
   color: white;
 }
 
-/* Concern */
+/* Afability */
 .afability-body {
   height: max-content;
   width: 100%;
 }
 
+.afability-body img{
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 15px;
+}
+
+.afability-body .col-lg-5 img{
+  border-radius: 20px 0px 20px 0px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+
 .afability-body h1 {
   font-size: 40px;
   font-weight: 600;
+  margin-left: 20px;
 }
-.afability-text p {
+.afability-body p {
   font-size: 16px;
+  width: 590px;
+  text-align: justify;
+}
+
+.img-disabil{
+  margin-top: 100px;
+  border-radius: 0px 150px 150px 0px;
 }
 
 /* Karyawan Disabilitas */
