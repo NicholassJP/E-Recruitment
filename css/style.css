@@ -24,13 +24,13 @@ body{
 
 @media (min-width: 1650px) {
   .carousel-indicators{
-    margin-right: 15% !important;
+    margin-right: 310px !important;
   }
 }
 
 @media (max-width: 1652px){
   .carousel-indicators-1 {
-    top: 34vh !important;
+    top: 308px !important;
 }
 .ml-15{
   margin-left: -30px !important;
@@ -361,7 +361,7 @@ right: 160px;
   bottom: unset;
   left: unset;
   display: unset;
-  top: 50vh;
+  top: 420px;
   margin-right: 5%;
 }
 
