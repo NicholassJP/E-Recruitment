@@ -43,14 +43,17 @@
 
 [class^="imghvr1-"] figcaption,
 [class*=" imghvr1-"] figcaption {
-    background: rgba(0, 93, 166, 0.8);
-    padding: 32px;
-    position: absolute;
     border-radius: 0px 0px 18px 0px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #ffffff;
+}
+
+[class^="imghvr2-"] figcaption,
+[class*=" imghvr2-"] figcaption {
+    line-height: 1.2;
+    padding: 10px;
+    padding-top: 60px;
+    border-radius: 10px 10px 40px 10px; 
+    text-align: left;
+    top: 0;
 }
 
 [class^="imghvr-"] figcaption h1,

@@ -230,40 +230,13 @@
 
 .body-internship .d-flex img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px 10px 40px 10px; 
   object-fit: cover;
 }
 
 .img-top img {
-  position: absolute;
-  width: 30% !important;
-  height: 48%;
-  border-radius: 8px;
-}
-
-.img-top .img-1 {
-  top: 0;
-  left: 0;
-}
-.img-top .img-2 {
-  bottom: 0;
-  left: 0;
-}
-.img-top .img-3 {
-  top: 0;
-  left: 35%;
-}
-.img-top .img-4 {
-  bottom: 0;
-  left: 35%;
-}
-.img-top .img-5 {
-  top: 0;
-  right: 0;
-}
-.img-top .img-6 {
-  bottom: 0;
-  right: 0;
+  width: 170px !important;
+  height: 164px;
 }
 
 /* Development Program Eksternal */
