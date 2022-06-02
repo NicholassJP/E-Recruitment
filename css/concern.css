@@ -180,9 +180,11 @@
   margin-bottom: 18px;
 }
 
-.img-karyawan img {
+.img-karyawan{
   margin-top: 150px;
-  margin-left: 30px;
+}
+
+.img-karyawan img {
   border-radius: 20px 0px 20px 0px;
   width: 240px;
   height: 240px;
@@ -278,7 +280,6 @@
 }
 
 .img-eksternal img {
-  margin: 50px 20px 20px 20px;
   border-radius: 20px 0px 20px 0px;
   width: 240px;
   height: 240px;

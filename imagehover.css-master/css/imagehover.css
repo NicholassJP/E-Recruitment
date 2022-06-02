@@ -8,6 +8,8 @@
  * http://www.opensource.org/licenses/mit-license.php
 
  */
+ 
+ /* Img 1 */
 [class^="imghvr-"],
 [class*=" imghvr-"] {
     display: inline-block;
@@ -33,6 +35,18 @@
     padding: 32px;
     position: absolute;
     border-radius: 0px 0px 40px 8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+[class^="imghvr1-"] figcaption,
+[class*=" imghvr1-"] figcaption {
+    background: rgba(0, 93, 166, 0.8);
+    padding: 32px;
+    position: absolute;
+    border-radius: 0px 0px 18px 0px;
     bottom: 0;
     left: 0;
     right: 0;
