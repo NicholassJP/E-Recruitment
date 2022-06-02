@@ -644,6 +644,16 @@ background-color: #ECECEC;
   color: white;
 }
 
+.btn-vacancies {
+  text-align: center;
+  background-color: #005da6;
+  border-radius: 25px;
+  width: max-content;
+  color: white;
+  padding: 10px;
+  height: 50px;
+}  
+
   .btn-vacancies:hover{
     background-color: var(--secondary_hover);
     color: white;
