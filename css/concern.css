@@ -1,401 +1,510 @@
-.carousel-caption {
-  margin-bottom: 60px;
+/* Mobile */
+.carousel-item{
+  padding: 100px 0px 0px 0px;
 }
 
-.btn-play {
+.carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  background-clip: unset;
+  border-bottom: 0px solid transparent;
+  border-top: 0px solid transparent;
+  border-radius: 6px;
+}
+
+.carousel-indicators{
+  margin-top: -26px;
+}
+
+.bg-banner{
   position: absolute;
-  padding: 16px 0px 0px 0px;
-  top: 40%;
-  left: 47%;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  background-color: var(--primary);
-  color: white;
+  left: 0px;
+  right: 0px;
+  top: 266px;
+  max-width: 390px;
 }
 
-/* Afability */
-.afability-body {
-  height: max-content;
-  width: 100%;
-  margin-top: 4rem;
+.fixed-top {
+  background-color: white;
 }
 
-.afability-body img{
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-left: 15px;
+/* Affability */
+.afability-body h1{
+  margin-top: 20px;
+  font-size: 30px;
+  justify-content: center;
 }
 
-.afability-body .col-lg-6 img{
-  border-radius: 0px 0px 20px 0px;
-  width: 225px;
-  height: 225px;
-  object-fit: cover;
-}
-
-.afability-body h1 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-left: 20px;
-}
-.afability-body p {
-  font-size: 16px;
-  text-align: justify;
+.afability-body p{
+  margin: 0 !important;
 }
 
 .img-disabil{
-  border-radius: 0px 150px 150px 0px;
+  display: inline;
+  max-width: 100%;
 }
 
-/* Karyawan Disabilitas */
-.karyawan-dis {
-  width: 100%;
-  height: max-content;
-  padding: 50px 0px 340px 0px;
-}
-
-.karyawan-dis h5 {
-  color: #005da6;
-  font-size: 24px;
-  font-weight: bold;
-}
-
+/* Karyawan Dis */
 .karyawan-dis img {
-  width: 120px;
+  display: inline;
+  width: 66px;
 }
 
 .karyawan-dis .demographi {
-  width: 200px;
+  width: 116px;
 }
 
 .karyawan-dis .ills-office img {
-  position: absolute;
-  margin-top: 50px;
-  width: 1178px;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-top: 20px;
+  width: 350px;
+} 
+
+.mobile-center{
+    justify-content: center;
 }
 
-/* Alfamart Class */
-.body-class {
-  background-color: #e7f6ff;
-  padding-top: 120px;
-  padding-bottom: 200px;
-  width: 100%;
-  border-radius: 100px 0px 100px 0px;
-  height: max-content;
+
+img{display: none;}
+
+@media (min-width: 1280px) {
+  .carousel-item{
+    padding: unset;
 }
 
-.text-class h1 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  color: var(--secondary);
+.fixed-top {
+    background-color: unset;
+   }
+
+.nav-active {
+    background-color:black;   
 }
 
-.title-text-class {
-  text-align: -webkit-center;
+.bg-banner{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: unset;
+    bottom: -60px;
+    width: 101%; 
+    max-width: 101%;
+  }
+  .carousel-item{
+    padding: unset;
 }
 
-.title-text-class p {
-  font-size: 16px;
-  margin-top: 50px;
-  width: 500px;
+.fixed-top {
+    background-color: unset;
+   }
+
+.nav-active {
+    background-color:black;   
 }
 
-.bar {
-  text-align: left;
-}
-
-.circle-bar {
-  width: 20px;
-  max-width: 20px;
-  display: inline-block;
-  height: 20px;
-  background-color: #005da6;
-  border-radius: 50%;
-}
-
-.bar p {
-  font-size: 18px;
-  margin-left: 1rem;
-  margin-bottom: 0;
-}
-
-.bar-label {
-  position: relative;
-  margin-top: 4px;
-  width: 1px;
-  height: 70px;
-  border-radius: 0;
-  border-style: dashed !important;
-  vertical-align: top;
-  border: 1px solid #005da6;
-  margin-left: 0.6rem;
-}
-
-.siswa-alfa {
-  position: absolute;
-  margin-top: 100px;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-left: 20px;
-}
-
-.siswa-alfa h4 {
-  font-size: 40px;
-  color: #005da6;
-  font-weight: bold;
-  width: 300px;
-  text-align: left;
-}
-
-.info-circle-outer {
-  width: 185px;
-  height: 185px;
-  border: 11px solid rgba(12, 117, 199, 0.11);
-  border-radius: 100%;
-  margin-left: 3rem;
-}
-
-.info-circle-inner {
-  width: 164px;
-  height: 164px;
-  background-image: linear-gradient(180deg, #1cade5 0%, #0c75c7 100%);
-  border-radius: 100%;
-  padding-top: 50px;
-  color: white;
-}
-
-.info-circle-inner h5 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 18px;
-}
-
-.img-karyawan{
-  margin-top: 150px;
-}
-
-.img-karyawan img {
-  border-radius: 20px 0px 20px 0px;
-  width: 240px;
-  height: 240px;
-  object-fit: cover;
-}
-
-/* Internship */
-.body-internship {
-  padding: 150px;
-  width: 100%;
-  height: max-content;
-}
-
-.body-internship h1 {
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--secondary);
-}
-
-.body-internship .row {
-  margin-top: 6rem;
-}
-
-.body-internship .row img {
-  width: 90px;
-  height: 90px;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-.body-internship .row i {
-  font-size: 40px;
-  color: #005da6;
-  margin: 1.5rem;
-}
-
-.body-internship .row p {
-  width: 100px;
-  color: #767676;
-  margin: 0;
-  margin-top: 6px;
-}
-
-.body-internship .d-flex img {
-  width: 100%;
-  border-radius: 10px 10px 40px 10px; 
-  object-fit: cover;
-}
-
-.img-top img {
-  width: 170px !important;
-  height: 164px;
-}
-
-/* Development Program Eksternal */
-.body-eksternal {
-  width: 100%;
-  background-image: linear-gradient(180deg, #fcdb00 0%, #f7b500 100%);
-  height: max-content;
-  padding: 120px 0px 80px 0px;
-}
-
-.body-eksternal h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.img-eksternal img {
-  border-radius: 20px 0px 20px 0px;
-  width: 240px;
-  height: 240px;
-  object-fit: cover;
-}
-
-.card-dev {
-  position: relative;
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border-radius: 0.5rem;
-  margin-bottom: 18px;
-}
-
-.card-dev-header {
-  align-items: center;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  cursor: pointer;
-}
-
-.card-dev-header img {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-.card-dev-header h3 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #005da6;
-  margin: 0;
-}
-
-.card-dev-header h5 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #005da6;
-  margin: 0;
-}
-
-.card-dev-header i {
-  font-size: 24px;
-  color: #005da6;
-}
-
-.card-content {
-  padding: 0.75rem 1.25rem;
-}
-
-.rotate i {
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.down i {
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.navbar-brand,
-.nav-link {
-  text-shadow: unset !important;
-  color: #c2c2c2 !important;
-}
-
-.border {
-  border-radius: 20px 20px 0px 0px;
-}
-
-.nav-tabs {
-  background-color: #005da6;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.nav-tabs .nav-link.active {
-  color: white !important;
-  font-weight: 600;
-  background-color: unset;
-  border: unset !important;
-}
-.nav-link::after {
-  bottom: 4px;
-}
-.nav-tabs .nav-link:hover {
-  border-color: transparent !important;
-}
-
-.tab-pane {
-  padding: 50px;
-}
-
-/* Life At Alfamart */
-.bg-life {
-  background-image: linear-gradient(
-    180deg,
-    #dbf0ff 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  width: 100%;
-  height: max-content;
-  padding: 60px;
-  background-size: cover;
-}
-
-.bg-life h1 {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.alfamart-life {
-  text-align: center;
-}
-
-.alfamart-life img {
-  width: 377px;
-  height: 377px;
-  object-fit: cover;
-  border-radius: 8px 8px 40px 8px;
-}
-
-.imghvr-fade figcaption h5 {
-  font-size: 16px;
-  text-align: left;
-}
-
-.btn-more-life {
-  text-align: center;
-  background-color: #005da6;
-  border-radius: 25px;
-  width: max-content;
-  color: white;
-  padding: 10px;
-  height: 50px;
+.bg-banner{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: unset;
+    bottom: -60px;
+    width: 101%; 
+    max-width: 101%;
+  }
+  .btn-play {
+    position: absolute;
+    padding: 16px 0px 0px 0px;
+    top: 40%;
+    left: 47%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  /* Afability */
+  .afability-body {
+    height: max-content;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  
+  .afability-body img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
+  }
+  
+  .afability-body .col-lg-6 img{
+    border-radius: 0px 0px 20px 0px;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+  }
+  
+  .afability-body h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .afability-body p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  .img-disabil{
+    border-radius: 0px 150px 150px 0px;
+  }
+  
+  /* Karyawan Disabilitas */
+  .karyawan-dis {
+    width: 100%;
+    height: max-content;
+    padding: 50px 0px 340px 0px;
+  }
+  
+  .karyawan-dis h5 {
+    color: #005da6;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .karyawan-dis img {
+    width: 120px;
+  }
+  
+  .karyawan-dis .demographi {
+    width: 200px;
+  }
+  
+  .karyawan-dis .ills-office img {
+    position: absolute;
+    margin-top: 50px;
+    width: 1178px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  /* Alfamart Class */
+  .body-class {
+    background-color: #e7f6ff;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    width: 100%;
+    border-radius: 100px 0px 100px 0px;
+    height: max-content;
+  }
+  
+  .text-class h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--secondary);
+  }
+  
+  .title-text-class {
+    text-align: -webkit-center;
+  }
+  
+  .title-text-class p {
+    font-size: 16px;
+    margin-top: 50px;
+    width: 500px;
+  }
+  
+  .bar {
+    text-align: left;
+  }
+  
+  .circle-bar {
+    width: 20px;
+    max-width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-color: #005da6;
+    border-radius: 50%;
+  }
+  
+  .bar p {
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .bar-label {
+    position: relative;
+    margin-top: 4px;
+    width: 1px;
+    height: 70px;
+    border-radius: 0;
+    border-style: dashed !important;
+    vertical-align: top;
+    border: 1px solid #005da6;
+    margin-left: 0.6rem;
+  }
+  
+  .siswa-alfa {
+    position: absolute;
+    margin-top: 100px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-left: 20px;
+  }
+  
+  .siswa-alfa h4 {
+    font-size: 40px;
+    color: #005da6;
+    font-weight: bold;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .info-circle-outer {
+    width: 185px;
+    height: 185px;
+    border: 11px solid rgba(12, 117, 199, 0.11);
+    border-radius: 100%;
+    margin-left: 3rem;
+  }
+  
+  .info-circle-inner {
+    width: 164px;
+    height: 164px;
+    background-image: linear-gradient(180deg, #1cade5 0%, #0c75c7 100%);
+    border-radius: 100%;
+    padding-top: 50px;
+    color: white;
+  }
+  
+  .info-circle-inner h5 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  
+  .img-karyawan{
+    margin-top: 150px;
+  }
+  
+  .img-karyawan img {
+    border-radius: 20px 0px 20px 0px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  /* Internship */
+  .body-internship {
+    padding: 150px;
+    width: 100%;
+    height: max-content;
+  }
+  
+  .body-internship h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secondary);
+  }
+  
+  .body-internship .row {
+    margin-top: 6rem;
+  }
+  
+  .body-internship .row img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .body-internship .row i {
+    font-size: 40px;
+    color: #005da6;
+    margin: 1.5rem;
+  }
+  
+  .body-internship .row p {
+    width: 100px;
+    color: #767676;
+    margin: 0;
+    margin-top: 6px;
+  }
+  
+  .body-internship .d-flex img {
+    width: 100%;
+    border-radius: 10px 10px 40px 10px; 
+    object-fit: cover;
+  }
+  
+  .img-top img {
+    width: 170px !important;
+    height: 164px;
+  }
+  
+  /* Development Program Eksternal */
+  .body-eksternal {
+    width: 100%;
+    background-image: linear-gradient(180deg, #fcdb00 0%, #f7b500 100%);
+    height: max-content;
+    padding: 120px 0px 80px 0px;
+  }
+  
+  .body-eksternal h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .img-eksternal img {
+    border-radius: 20px 0px 20px 0px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  .card-dev {
+    position: relative;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-bottom: 18px;
+  }
+  
+  .card-dev-header {
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  
+  .card-dev-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .card-dev-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #005da6;
+    margin: 0;
+  }
+  
+  .card-dev-header h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #005da6;
+    margin: 0;
+  }
+  
+  .card-dev-header i {
+    font-size: 24px;
+    color: #005da6;
+  }
+  
+  .card-content {
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .rotate i {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .down i {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    text-shadow: unset !important;
+    color: #c2c2c2 !important;
+  }
+  
+  .border {
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .nav-tabs {
+    background-color: #005da6;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .nav-tabs .nav-link.active {
+    color: white !important;
+    font-weight: 600;
+    background-color: unset;
+    border: unset !important;
+  }
+  .nav-link::after {
+    bottom: 4px;
+  }
+  .nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+  }
+  
+  .tab-pane {
+    padding: 50px;
+  }
+  
+  /* Life At Alfamart */
+  .bg-life {
+    background-image: linear-gradient(
+      180deg,
+      #dbf0ff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 100%;
+    height: max-content;
+    padding: 60px;
+    background-size: cover;
+  }
+  
+  .bg-life h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .alfamart-life {
+    text-align: center;
+  }
+  
+  .alfamart-life img {
+    width: 377px;
+    height: 377px;
+    object-fit: cover;
+    border-radius: 8px 8px 40px 8px;
+  }
+  
+  .imghvr-fade figcaption h5 {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .btn-more-life {
+    text-align: center;
+    background-color: #005da6;
+    border-radius: 25px;
+    width: max-content;
+    color: white;
+    padding: 10px;
+    height: 50px;
+  }  
 }
