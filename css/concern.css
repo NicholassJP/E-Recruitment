@@ -1,6 +1,14 @@
 /* Mobile */
+.navbar-nav{
+  align-items: center;
+}
+
+.carousel-indicators-1 {
+  top: 235px !important;
+}
+
 .carousel-item{
-  padding: 100px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 
 .carousel-indicators li{
@@ -13,16 +21,13 @@
   border-radius: 6px;
 }
 
-.carousel-indicators{
-  margin-top: -26px;
-}
-
 .bg-banner{
+  display: inline;
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 266px;
-  max-width: 390px;
+  top: 246px;
+  max-width: 100%;
 }
 
 .fixed-top {
@@ -31,7 +36,6 @@
 
 /* Affability */
 .afability-body h1{
-  margin-top: 20px;
   font-size: 30px;
   justify-content: center;
 }
@@ -61,10 +65,124 @@
 } 
 
 .mobile-center{
+  margin-top: 50px;
     justify-content: center;
 }
 
+.bar {
+  text-align: left;
+}
+
+.circle-bar {
+  width: 12px;
+  max-width: 16px;
+  height: 12px;
+  max-height: 13px;
+  max-width: 16px;
+  display: inline-block;
+  background-color: #005da6;
+  border-radius: 50%;
+}
+
+/* Alfamart Class */
+.text-class h1{
+  margin-top: 20px;
+}
+
+.circle-bar-1{
+  width: 18px;
+    height: 15px;
+}
+
+.bar p {
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.bar-label {
+  position: relative;
+  margin-top: 4px;
+  width: 1px;
+  height: 30px;
+  border-radius: 0;
+  border-style: dashed !important;
+  vertical-align: top;
+  border: 1px solid #005da6;
+  margin-left: 0.4rem;
+}
+
+.graph_alfa img{
+  display: inline;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.ills-smk{
+  width: 300px;
+  display: inline;
+  margin-bottom: 50px;
+}
+
+.siswa-alfa{
+  display: unset !important;
+}
+
+/* Karyawan Alfamart */
+.siswa-alfa {
+  position: relative;
+  margin-top: 100px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-left: 20px;
+  text-align: -webkit-center;
+}
+
+.siswa-alfa h4 {
+  font-size: 24px;
+  color: #005da6;
+  font-weight: bold;
+}
+
+.info-circle-outer {
+  width: 145px;
+  height: 145px;
+  border: 11px solid rgba(12, 117, 199, 0.11);
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.info-circle-inner {
+  width: 124px;
+  height: 124px;
+  background-image: linear-gradient(180deg, #1cade5 0%, #0c75c7 100%);
+  border-radius: 100%;
+  padding-top: 38px;
+  color: white;
+}
+
+.info-circle-inner h5 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* img{display: none;} */
+
+
+/* PC */
 @media (min-width: 1280px) {
+  .carousel-indicators-1 {
+    top: 420px !important;
+  }
+  .mobile-center {
+    margin-top: 0;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
   .carousel-item{
     padding: unset;
 }
@@ -126,15 +244,14 @@
     margin-top: 4rem;
   }
   
-  .afability-body img{
+  .mobile-center img{
     width: 72px;
     height: 72px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 15px;
   }
   
-  .afability-body .col-lg-6 img{
+  .aff-img img{
     border-radius: 0px 0px 20px 0px;
     width: 225px;
     height: 225px;
@@ -213,78 +330,6 @@
     width: 500px;
   }
   
-  .bar {
-    text-align: left;
-  }
-  
-  .circle-bar {
-    width: 20px;
-    max-width: 20px;
-    display: inline-block;
-    height: 20px;
-    background-color: #005da6;
-    border-radius: 50%;
-  }
-  
-  .bar p {
-    font-size: 18px;
-    margin-left: 1rem;
-    margin-bottom: 0;
-  }
-  
-  .bar-label {
-    position: relative;
-    margin-top: 4px;
-    width: 1px;
-    height: 70px;
-    border-radius: 0;
-    border-style: dashed !important;
-    vertical-align: top;
-    border: 1px solid #005da6;
-    margin-left: 0.6rem;
-  }
-  
-  .siswa-alfa {
-    position: absolute;
-    margin-top: 100px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-left: 20px;
-  }
-  
-  .siswa-alfa h4 {
-    font-size: 40px;
-    color: #005da6;
-    font-weight: bold;
-    width: 300px;
-    text-align: left;
-  }
-  
-  .info-circle-outer {
-    width: 185px;
-    height: 185px;
-    border: 11px solid rgba(12, 117, 199, 0.11);
-    border-radius: 100%;
-    margin-left: 3rem;
-  }
-  
-  .info-circle-inner {
-    width: 164px;
-    height: 164px;
-    background-image: linear-gradient(180deg, #1cade5 0%, #0c75c7 100%);
-    border-radius: 100%;
-    padding-top: 50px;
-    color: white;
-  }
-  
-  .info-circle-inner h5 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 18px;
-  }
-  
   .img-karyawan{
     margin-top: 150px;
   }
@@ -294,6 +339,56 @@
     width: 240px;
     height: 240px;
     object-fit: cover;
+  }
+  
+  .circle-bar {
+    width: 14px;
+    max-width: 20px;
+    height: 20px;
+  }
+  
+  .bar-label {
+    height: 70px;
+  }
+
+  .ills-smk {
+    width: 520px;
+}
+
+.graph_alfa img {
+  width: 350px;
+}
+
+  .siswa-alfa{
+    display: flex !important;
+  }
+
+  .siswa-alfa {
+    position: absolute;
+    margin-left: 20px;
+  }
+  
+  .siswa-alfa h4 {
+    font-size: 40px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .info-circle-outer {
+    width: 185px;
+    height: 185px;
+    margin-left: 3rem;
+  }
+  
+  .info-circle-inner {
+    width: 164px;
+    height: 164px;
+    padding-top: 50px;
+  }
+  
+  .info-circle-inner h5 {
+    font-size: 40px;
+    margin-bottom: 24px;
   }
   
   /* Internship */
@@ -505,3 +600,9 @@
     height: 50px;
   }  
 }
+
+@media (max-width: 1652px){
+  .carousel-indicators-1 {
+      top: 308px !important;
+  }
+  }
