@@ -14,7 +14,7 @@
   }
   
   .carousel-indicators{
-    margin-top: -26px;
+    margin-top: -50px;
   }
   
   .bg-banner{
@@ -27,6 +27,7 @@
   
   .fixed-top {
     background-color: white;
+    text-align: center;
   }
   
   /* Text */
@@ -96,8 +97,8 @@
   .btn-play{
     position: absolute;
     padding: 18px 1px 18px 0px;
-    top: 34%;
-    left: 40%;
+    top: 38%;
+    left: 53%;
     width: 65px;
     height: 65px;
     border-radius: 100%;
@@ -114,9 +115,27 @@
   .container-xl{
       text-align: center;
   }
+
+  @media (max-width: 480px) {
+    .carousel-control-next, .carousel-control-prev {
+    top: 100px;
+    }
+
+    .btn-play{
+      top: 55% !important;
+      left: 40% !important;
+    }
+  }
   /* Akhir Mobile */
 
   @media (min-width: 1280px) {
+    .container-xl{
+      text-align: left;
+  }
+  .mobile-center{
+    text-align: center;
+  }
+
     .carousel-item{
         padding: unset;
     }
@@ -138,6 +157,38 @@
         width: 101%; 
         max-width: 101%;
       }
+
+      .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+        background-size: 16px 16px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005da6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+        left: 30px;
+    }
+
+    .carousel-control-next-icon{
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+      background-size: 16px 16px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005da6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+      left: 100px;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+    }
+
+  .text-seleksi p{
+    font-size: 16px;
+    margin-left: 100px;
+    font-weight: 400;
+  }
   }
 
   

@@ -236,6 +236,11 @@
     background-color: var(--primary);
     color: white;
   }
+
+  .btn-1 {
+    top: 40%;
+    left: 40%;
+  }
   
   /* Afability */
   .afability-body {

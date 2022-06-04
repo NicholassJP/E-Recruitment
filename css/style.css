@@ -104,6 +104,16 @@ body{
   color: white;
 }
 
+.btn-primary {
+  width: 120px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+  font-weight: 600;
+  align-self: center;
+}
+
 /* Desktop */
 @media (min-width: 1280px) {
   .fixed-top {

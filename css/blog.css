@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
     .fixed-top {
         background-color: white;
+        text-align: center;
     }
     .carousel-control-next-icon {
        display: none;
@@ -27,6 +28,10 @@
     .text-header-blog h4{
         font-size: 16px;
         margin-top: -20px;
+    }
+
+    .kategori h5{
+        font-size: 16px !important;
     }
 }
 
