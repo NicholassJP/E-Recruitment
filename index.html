@@ -40,7 +40,7 @@
     />
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/home.css" />
 
     <title>E-Recruitment</title>
   </head>
@@ -209,7 +209,7 @@
         </div>
       </div>
       <img
-        class="tagline"
+        class="tagline sejarah-img"
         src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/Deskripsi.png"
         alt=""
       />
@@ -223,7 +223,7 @@
           Core Values (2i & 3k)
         </h2>
         <!-- Integritas -->
-        <div class="row align-items-center">
+        <div class="row align-items-center mobile-left">
           <div class="col-lg-4">
             <img
               src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills/App-HC_INTEGRITAS%20YANG%20TINGGI.png"
@@ -232,7 +232,7 @@
             />
           </div>
           <div class="col-lg-5">
-            <h2 class="tagline-core-right">Integritas Yang Tinggi</h2>
+            <h2 class="tagline-core-right secondary">Integritas Yang Tinggi</h2>
             <p class="tagline-core-left-delay">
               Jujur, disiplin, dan konsisten dalam bekerja berlandaskan etika
               serta bertanggung jawab terhadap pekerjaan.
@@ -242,10 +242,9 @@
         <!-- Akhir Integritas -->
 
         <!-- Inovasi -->
-        <div class="row align-items-center mt-4">
-          <div class="col-lg-3"></div>
+        <div class="row align-items-center mt-4 mobile-right">
           <div class="col-lg-5">
-            <h2 class="tagline-core-left">
+            <h2 class="tagline-core-left secondary">
               Inovasi untuk kemajuan yang lebih baik
             </h2>
             <p class="tagline-core-left-delay">
@@ -264,7 +263,7 @@
         <!-- Akhir Inovasi -->
 
         <!-- Kualitas -->
-        <div class="row align-items-center mt-4">
+        <div class="row align-items-center mt-4 mobile-left">
           <div class="col-lg-4">
             <img
               src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills/App-HC_KUALITAS%20_%20PRODUKTIVITAS-YANG%20TERTINGGI.png"
@@ -273,7 +272,7 @@
             />
           </div>
           <div class="col-lg-5">
-            <h2 class="tagline-core-right">
+            <h2 class="tagline-core-right secondary">
               Kualitas & Produktivitas yang tertinggi
             </h2>
             <p class="tagline-core-right-delay">
@@ -285,10 +284,9 @@
         <!-- Akhir Kualitas -->
 
         <!-- Kerjasama-->
-        <div class="row align-items-center mt-4">
-          <div class="col-lg-3"></div>
+        <div class="row align-items-center mt-4 mobile-right">
           <div class="col-lg-5">
-            <h2 class="tagline-core-left">Kerja sama tim</h2>
+            <h2 class="tagline-core-left secondary">Kerja sama tim</h2>
             <p class="tagline-core-left-delay">
               Terlibat aktif serta mendorong terciptanya semangat dan kekompakan
               tim.
@@ -305,7 +303,7 @@
         <!-- Akhir Kerjasama -->
 
         <!-- Kepuasan -->
-        <div class="row align-items-center mt-4 mb-5">
+        <div class="row align-items-center mt-4 mb-5 mobile-left">
           <div class="col-lg-4">
             <img
               src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills/App-HC_KEPUASAN%20PELANGGAN%20MELALUI%20-STANDAR%20PELAYANAN%20YANG%20TERBAIK.png"
@@ -314,7 +312,7 @@
             />
           </div>
           <div class="col-lg-5">
-            <h2 class="tagline-core-right">
+            <h2 class="tagline-core-right secondary">
               Kepuasan pelanggan melalui standar pelayanan yang terbaik
             </h2>
             <p class="tagline-core-right-delay">
@@ -458,9 +456,7 @@
               <h2 class="text-people">Property & Development</h2>
               <p class="text-positions">39 Positions</p>
               <div class="card-hover">
-                <h2 class="text-people-hover">
-                  Property & Development
-                </h2>
+                <h2 class="text-people-hover">Property & Development</h2>
                 <p class="text-artikel-hover">
                   Manajemen sumber daya manusia yang secara khusus diisi dengan
                   program-program yang langsung bersangkutan dengan karyawan,
@@ -777,6 +773,7 @@
         distance: "60px",
         duration: 800,
         delay: 4,
+        mobile: false,
       });
       ScrollReveal().reveal(".tagline", { delay: 100 });
       ScrollReveal().reveal(".inner-form, .tagline-about, .tagline-core-left", {

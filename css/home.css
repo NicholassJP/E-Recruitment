@@ -1,0 +1,115 @@
+/* Mobile */
+.carousel-item{
+    padding: 100px 0px 0px 0px;
+  }
+  
+  .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    margin: 4px;
+    background-clip: unset;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-radius: 6px;
+  }
+  
+  .carousel-indicators{
+    margin-top: -50px;
+  }
+  
+  .bg-banner{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 266px;
+    width: 100%;
+  }
+  
+  .fixed-top {
+    background-color: white;
+    text-align: center;
+  }
+
+  .bold{
+    font-weight: 600;
+  }
+
+  .bg-right-blue, .bg-left-blue, .bg_left_blue, .bg-dot{
+      display: none;
+  }
+
+  .sejarah-img{
+      display: none;
+  }
+
+  .secondary{
+    color: var(--secondary);
+    font-weight: 600;
+}
+.mobile-left{
+    text-align: center;
+  }
+
+.mobile-right{
+    text-align: center;
+  }
+
+  .mobile-left img{
+    width: 250px;
+  }
+
+.mobile-right img{
+    width: 250px;
+  }
+
+  /* Akhir Mobile */
+
+  @media (min-width: 1280px) {  
+    .sejarah-img{
+        display: block;
+    }
+
+    .mobile-left img, .mobile-right img{
+        width: 100%;
+      }
+
+    .mobile-left{
+    text-align: left;
+  }
+    .mobile-right{
+    text-align: right;
+  }
+
+  .bg-right-blue, .bg-left-blue, .bg_left_blue, .bg-dot{
+    display: block;
+}
+
+    .carousel-item{
+        padding: unset;
+    }
+
+    .fixed-top {
+        background-color: unset;
+       }
+
+    .nav-active {
+        background-color:black;   
+    }
+
+    .bg-banner{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: unset;
+        bottom: -60px;
+        width: 101%; 
+        max-width: 101%;
+      }
+    .bold{
+        font-weight: bold;
+    }
+
+    .sejarah-img{
+        width: 100%;
+    }
+    }
