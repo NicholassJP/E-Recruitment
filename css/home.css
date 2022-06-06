@@ -1,6 +1,6 @@
 /* Mobile */
 .carousel-item{
-    padding: 100px 0px 0px 0px;
+    padding: 0;
   }
   
   .carousel-indicators li{
@@ -48,6 +48,7 @@
 }
 .mobile-left{
     text-align: center;
+    text-align: -webkit-center;
   }
 
 .mobile-right{
@@ -377,8 +378,22 @@ margin-right: 20px !important;
         text-align: center;
     }
 
+    .mobile-img{
+        display: block;
+    }
+
+    .web-img{
+        display: none;
+    }
+
   /* Akhir Mobile */
   @media (min-width: 1280px) {  
+    .web-img{
+        display: block;
+    }
+      .mobile-img{
+          display: none;
+      }
     .caption-kata h1{
         color: white;
         font-weight: bold;
