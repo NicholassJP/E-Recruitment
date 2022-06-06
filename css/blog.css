@@ -217,6 +217,9 @@ a {
 color: #BFBFBF !important;
 text-shadow: none;
 }
+.active{
+    color: black !important;
+}
 
 .button-show{
     background-color: #005DA6;
