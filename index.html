@@ -243,6 +243,7 @@
 
         <!-- Inovasi -->
         <div class="row align-items-center mt-4 mobile-right">
+          <div class="col-lg-3"></div>
           <div class="col-lg-5">
             <h2 class="tagline-core-left secondary">
               Inovasi untuk kemajuan yang lebih baik
@@ -285,6 +286,7 @@
 
         <!-- Kerjasama-->
         <div class="row align-items-center mt-4 mobile-right">
+          <div class="col-lg-3"></div>
           <div class="col-lg-5">
             <h2 class="tagline-core-left secondary">Kerja sama tim</h2>
             <p class="tagline-core-left-delay">
@@ -587,7 +589,6 @@
             </div>
           </div>
           <!-- Akhir Card 6 -->
-          <div style="display: none"></div>
         </div>
       </div>
       <img
@@ -595,13 +596,13 @@
         alt="bg_dot"
         class="bg-dot"
       />
-      <button class="btn btn-vacancies">More Vacancies</button>
+      <button class="btn btn-vacancies margin-20">More Vacancies</button>
     </div>
 
     <!-- Lokasi Kami -->
     <div class="container">
       <div class="align-items-center">
-        <div class="text-center">
+        <div class="text-center mt-5">
           <img
             src="https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/ills/App-HC_Area%20Wilayah.png"
             class="tagline"
@@ -637,7 +638,7 @@
             </select>
           </div>
           <!-- Dropdown Search -->
-          <div class="search_select_box">
+          <div class="search_select_box top-20">
             <select data-live-search="true" data-style="dropdown-bottom">
               <option data-icon="fa-solid fa-location-dot mr-3">
                 - Kecamatan -
@@ -651,20 +652,20 @@
 
           <!-- Button Search -->
           <button
-            class="btn btn-search-lokasi text-center justify-content-center tagline-core-right"
+            class="btn btn-search-lokasi text-center justify-content-center tagline-core-right top-20"
           >
             Search
           </button>
         </div>
       </div>
       <div class="card-lokasi tagline-core-left-delay">
-        <div class="row">
-          <div class="col-lg-1">
-            <div class="icon-card mt-4 ml-4">
+        <div class="d-flex align-items-center margin-15">
+          <div class="">
+            <div class="icon-card left-4">
               <i class="fa-solid fa-building"></i>
             </div>
           </div>
-          <div class="col-lg-10 ml-4">
+          <div class="col-lg-10 left-4">
             <h1 class="text-cabang">Cabang Cikokol</h1>
             <h3 class="text-alamat">
               Jl. MH. Thamrin No.9, RT.003/RW.010, Cikokol, Kec. Tangerang, Kota
@@ -727,7 +728,9 @@
           </div>
         </div>
         <!-- Akhir Accordion -->
-        <a class="btn btn-faq mt-4" href="">More FAQ</a>
+        <div class="text-center">
+          <a class="btn btn-faq mt-4 mb-4" href="">More FAQ</a>
+        </div>
       </div>
     </div>
     <!-- Akhir FAQ -->
@@ -753,7 +756,7 @@
     <script>
       $(".slider").slick({
         infinite: false,
-        slidesToShow: 4,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplaySpeed: 2000,
         variableWidth: true,

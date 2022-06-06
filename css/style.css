@@ -42,7 +42,7 @@ body{
 
   /* Card */
   .card{
-    width: unset;
+    width: 350px;
     height: 306px;
     padding: 20px;
     border-radius: 10px;
@@ -249,18 +249,6 @@ margin-bottom: 30px;
   text-align: left;
 }
 
-.caption-kata h1{
-  color: white;
-  font-weight: bold;
-  text-align: left;
-}
-
-.caption-kata h5{
-  color: white;
-  font-weight: 600;
-  text-align: left;
-}
-
 .caption-kata p{
   color: white;
   text-align: left;
@@ -324,16 +312,6 @@ margin-bottom: 30px;
 
 .mt-11{
   margin-top: 354px;
-}
-
-
-.inner-kata{
-  width: 1200px;
-  height: max-content;
-  display: flex;
-  background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/bg_kata_alfanesia.png");
-  background-repeat: no-repeat;
-  border-radius: 50px 0px 50px 0px;
 }
 
 .center-container{
@@ -439,19 +417,6 @@ right: 160px;
   display: none;
 }
 
-.text-berkembang{
-  font-size: 35px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.text-potensi{
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: center;
-  color: var(--about-2);
-}
-
 
 .container-tim{
   padding: 50px 0px 0px 50px;
@@ -462,16 +427,6 @@ right: 160px;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
-}
-
-.icon-card{
-  background-color: #E6EFF6;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  text-align: center;
-  padding: 18px;
-  color: #005DA6;
 }
 
 /* Lokasi Kami */
@@ -497,6 +452,23 @@ right: 160px;
   color: #6d7278;
   font-weight: 400;
 }
+
+.inner-kata{
+  width: 1200px !important;
+  height: max-content;
+  display: flex;
+  background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/bg_kata_alfanesia.png");
+  background-repeat: no-repeat;
+  border-radius: 50px 0px 50px 0px;
+  padding: 0 !important;
+  background-color: unset !important;
+}
+
+
+.inner-kata .col-lg-1{
+  display: block !important;
+}
+
 
 .inner-form{
   background: white;
@@ -610,271 +582,10 @@ right: 160px;
   margin-left: 80px;
 }
 
-
-.btn-dropdown-lokasi{
-  margin-left: 10px;
-  background-color: white;
-  border-radius: 25px;
-}
-
-.dropdown-header {
-border-radius: 20px;
-color: #9D9D9D;
-background-color: #ECECEC;
-}
-
-.dropdown-bottom {
-  width: 210px !important;
-  border-radius: 20px;
-  color: black;
-  background-color: white;
-  margin-left: 10px;
-  }
-
-.btn-search-lokasi{
-  margin-left: 10px;
-  border-radius: 25px;
-  background-color: #005DA6;
-  color: white;
-}
-
-.btn-search-lokasi:hover{
-  background-color: var(--secondary_hover);
-  color: white;
-}
-
-.btn-faq{
-  border-radius: 25px;
-  background-color: #005DA6;
-  color: white;
-}
-
-.btn-faq:hover{
-  background-color: var(--secondary_hover);
-  color: white;
-}
-
-.btn-vacancies {
-  text-align: center;
-  background-color: #005da6;
-  border-radius: 25px;
-  width: max-content;
-  color: white;
-  padding: 10px;
-  height: 50px;
-}  
-
-  .btn-vacancies:hover{
-    background-color: var(--secondary_hover);
-    color: white;
-  }
-
-.card-lokasi{
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  width: 1180px;
-  height: 113px;
-  margin-top: 44px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-
-.text-cabang{
-  font-size: 24px;
-  color: var(--secondary);
-  font-weight: bold;
-  margin-top: 30px;
-}
-
-.text-alamat{
-  font-size: 16px;
-  color: var(--secondary);
-}
-
 /* Akhir Lokasi Kami */
 
-/* FAQ */
-.body-6{
-  padding: 40px;
-  background-color: white;
-  width: 100%;
-  height: max-content;
-  text-align-last: center;
-}
-
-.text-positions{
-  margin-top: 30px;
-  font-size: 16px;
-  color: var(--secondary);
-  font-weight: bold;
-  text-align: left;
-}
-
-.text-positions-1{
-  margin-top: 58px;
-  font-size: 16px;
-  color: var(--secondary);
-  font-weight: bold;
-  text-align: left;
-}
-
-header.nav-fixed {
-  width: 100%;
-  position: fixed;
-  transition: 0.3s ease-in-out;
-}
-
-.nav-active {
-  background-color:black;   
-}
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url('/images/filter.png') !important;
-}
-
-.navbar-light .navbar-toggler {
-  color: white;
-  border-color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
-  color: white;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: white;
-}
-
-
-
-/* Slick */
-.slick-prev{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    background-color: #FFFFFF;
-    border-radius: 100%;
-    box-shadow: 0 1px 3px 0 rgba(32, 32, 32, 0.5);
-    top: 94%;
-    right: 0;
-    left: 0;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: 200px;
-    color: var(--secondary);
-}
-
-.slick-next{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    background-color: #FFFFFF;
-    border-radius: 100%;
-    box-shadow: 0 1px 3px 0 rgba(32, 32, 32, 0.5);
-    top: 94%;
-    right: 0;
-    left: 150px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: 125px;
-    color: var(--secondary);
-}
- /* the slides */
- .slick-slide {
-	margin: 0 20px;
-}
-.slick-track{
-    height: 350px;
-}
 .ml-20{
     margin-left: 170px;
-}
-
-/* FAQ */
-
-.accordionItem {
-  transition: all 0.4s;
-  border-radius: 0.4rem;
-  background-color: #F7F7F7;
-  margin-top: 10px;
-}
-
-.accordionItem:first-child {
-  margin-top: 0 !important;
-}
-
-.accordionItem:last-child {
-  margin-bottom: 0 !important;
-}
-
-.accordionItem .header {
-  display: flex;
-  cursor: pointer;
-  padding: 10px 0px 0px 10px;
-  align-items: center;
-  border-radius: 0.4rem;
-  justify-content: space-between;
-}
-
-.accordionItem .header h3,
-.accordionItem .header i {
-  pointer-events: none;
-}
-
-.accordionItem .header:hover {
-  background-color: #F7F7F7;
-}
-
-.accordionItem .header i {
-  font-size: 18px;
-  margin-right: 15px;
-}
-
-.accordionItem .body {
-  max-height: 0;
-  overflow: hidden;
-  margin-top: 0.5rem;
-  transition: all 0.4s;
-  margin-left: 1.5rem;
-}
-
-.accordionItem.active {
-  margin: 10px 0px;
-  background-color: #ECECEC;
-}
-
-.accordionItem.active .body {
-  margin-top: 10px;
-  max-height: 20rem;
-  padding-bottom: 0.5rem;
-}
-
-.header-text{
-  font-size: 24px;
-  color: var(--secondary);
-  line-height: 1;
-}
-
-.body-text{
-  font-size: 24px;
-  color: var(--secondary);
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.accordionItem.active .header {
-  background-color: #F7F7F7;
-}
-
-.accordionItem.active .header i {
-  transition: all 0.3s;
-  transform: rotate(90deg);
 }
 
 .ml-20{
