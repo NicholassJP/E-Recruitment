@@ -398,15 +398,6 @@ margin-bottom: 30px !important;
     background-color:black;   
 }
 
-.bg-banner{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: unset;
-    bottom: -60px;
-    width: 101%; 
-    max-width: 101%;
-  }
   .carousel-item{
     padding: unset;
 }
@@ -425,8 +416,8 @@ margin-bottom: 30px !important;
     right: 0px;
     top: unset;
     bottom: -60px;
-    width: 101%; 
-    max-width: 101%;
+    width: 100%; 
+    max-width: 100%;
   }
   .btn-play {
     position: absolute;
