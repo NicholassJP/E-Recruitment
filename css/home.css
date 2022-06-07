@@ -37,56 +37,6 @@
     width: 100%;
   }
 
-  .inner-search{
-    margin-left: auto;
-    margin-right: auto;
-    width: max-content;
-    height: 40px;
-    align-items: center;
-    background-color: #ECECEC;
-    color: #9D9D9D;
-    display: flex;
-    border-radius: 30px;
-    padding: 20px;
-  }
-
-  .search-box{
-  text-align: left;
-  align-items: center !important;
-  background-color: #ECECEC;
-  color: #9D9D9D;
-  font-weight: 600px;
-  border: none;
-  outline: none;
-  padding-left: 10px;
-}
-
-.btn-search{
-  width: 100px;
-  align-items: center !important;
-  border-radius: 20px;
-  background-color: #005DA6;
-  color: white;
-}
-
-.btn-search:hover{
-  background-color: #07426e;
-  color: white;
-}
-
-.btn-job{
-  width: 150px;
-  align-items: center !important;
-  border-radius: 20px;
-  background-color: #E02020;
-  color: white;
-}
-
-.info-mobile{
-  display: block;
-  text-align: center;
-}
-
 .btn-job:hover{
   background-color: #a50f0f;
   color: white;
@@ -270,20 +220,6 @@
     border-radius: 25px;
   }
   
-  .dropdown-header {
-  border-radius: 20px;
-  color: #9D9D9D;
-  background-color: #ECECEC;
-  }
-  
-  .dropdown-bottom {
-    width: 210px !important;
-    border-radius: 20px;
-    color: black;
-    background-color: #F7F7F7;
-    margin-left: 10px;
-    }
-  
   .btn-search-lokasi{
     margin-left: 10px;
     border-radius: 25px;
@@ -428,9 +364,9 @@ margin-right: 20px !important;
 
       .inner-kata{
           width: 100%;
-          background-color: #F7F7F7;
           padding: 20px;
-          border-radius: 20px;
+          background-image: url("/images/profile-1.png");
+          border-radius: 50px 0px 50px 0px;
       }
 
       .inner-kata .col-lg-1{
@@ -440,7 +376,7 @@ margin-right: 20px !important;
       .inner-kata img{
           position: absolute;
           bottom: 35px;
-          right: 0;
+          right: 30px;
         width: 200px;
     }
     .inner-kata .d-flex{
@@ -466,26 +402,15 @@ margin-right: 20px !important;
         display: none;
     }
 
-    .inner-kata{
-      width: 100%;
-      background-color: #005DA6;
-    }
-
   /* Akhir Mobile */
   @media (min-width: 1280px) {  
     .flex-mobile {
     display: flex;
     }
-    .inner-search{
-      margin-left: unset;
-      margin-right: unset;
-    }
     .about-alfa{
       padding: 100px 0px 50px 0px;
     }
-    .info-mobile{
-      display: none;
-    }
+
     .web-img{
         display: block;
     }
@@ -502,6 +427,16 @@ margin-right: 20px !important;
         color: white;
         font-weight: 600;
         text-align: left;
+      }
+      .inner-kata{
+        width: 1200px !important;
+        height: max-content;
+        display: flex;
+        background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/bg_kata_alfanesia.png");
+        background-repeat: no-repeat;
+        border-radius: 50px 0px 50px 0px;
+        padding: 0 !important;
+        background-color: unset !important;
       }
     .inner-kata .d-flex{
         display: flex !important;
@@ -588,6 +523,10 @@ margin-right: 20px !important;
     .sejarah-img{
         width: 100%;
     }
+
+  .dropdown-bottom {
+    width: 210px !important;
+  }
 
     /* FAQ */
 .body-6{

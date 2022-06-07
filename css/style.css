@@ -39,6 +39,89 @@ body{
   margin-bottom: 110px !important;
 }
 }
+.info-mobile{
+  display: block;
+  text-align: center;
+}
+.dropdown-header {
+  border-radius: 20px;
+  color: #9D9D9D;
+  background-color: #ECECEC;
+  }
+  
+  .dropdown-bottom {
+    width: 100%;
+    border-radius: 20px;
+    color: black;
+    background-color: #F7F7F7;
+    margin-left: 10px;
+    }
+
+    .inner-form{
+      background: white;
+      padding: 20px 20px;
+      width: 1060px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+      width: 260px;
+    }
+    
+
+    .inner-search{
+      margin-left: auto;
+      margin-right: auto;
+      width: 262px;
+      height: 40px;
+      align-items: center;
+      background-color: #ECECEC;
+      color: #9D9D9D;
+      display: flex;
+      border-radius: 30px;
+      padding: 20px;
+    }
+
+    .btn-search:hover{
+      background-color: #07426e;
+      color: white;
+    }
+    
+    .btn-job{
+      width: 150px;
+      align-items: center !important;
+      border-radius: 20px;
+      background-color: #E02020;
+      color: white;
+    }
+
+    .btn-search{
+      width: 100px;
+      align-items: center !important;
+      border-radius: 20px;
+      background-color: #005DA6;
+      color: white;
+    }
+  
+    .search-box{
+    text-align: left;
+    align-items: center !important;
+    background-color: #ECECEC;
+    color: #9D9D9D;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
 
   /* Card */
   .card{
@@ -430,33 +513,27 @@ right: 160px;
   color: #6d7278;
   font-weight: 400;
 }
-
-.inner-kata{
-  width: 1200px !important;
-  height: max-content;
-  display: flex;
-  background-image: url("https://raw.githubusercontent.com/NicholassJP/E-Recruitment/main/images/bg_kata_alfanesia.png");
-  background-repeat: no-repeat;
-  border-radius: 50px 0px 50px 0px;
-  padding: 0 !important;
-  background-color: unset !important;
+.inner-search{
+  width: max-content;
+  margin-left: unset;
+  margin-right: unset;
+}
+  .search-box{
+  text-align: left;
+  align-items: center !important;
+  background-color: #ECECEC;
+  color: #9D9D9D;
+  border: none;
+  outline: none;
+  padding-left: 10px;
 }
 
-.inner-form{
-  background: white;
-  padding: 20px 20px;
-  width: 1060px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 220px;
+}
+
+.info-mobile{
+  display: none !important;
 }
 
 .inner-kata .col-lg-1{
