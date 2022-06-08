@@ -417,9 +417,9 @@
       const navbar = document.querySelector(".nav-fixed");
       window.onscroll = () => {
         if (window.scrollY > 0) {
-          navbar.classList.add("nav-active");
+          navbar.classList.add("nav-active", "active");
         } else {
-          navbar.classList.remove("nav-active");
+          navbar.classList.remove("nav-active", "active");
         }
       };
     </script>

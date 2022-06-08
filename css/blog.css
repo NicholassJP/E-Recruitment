@@ -35,6 +35,9 @@
     }
 }
 
+.nav-active {
+    background-color:black;   
+}
 .tutup-nav{
     height: 80px;
 }
@@ -217,8 +220,9 @@ a {
 color: #BFBFBF !important;
 text-shadow: none;
 }
+
 .active{
-    color: black !important;
+    color: black;
 }
 
 .button-show{
